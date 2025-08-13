@@ -1,30 +1,60 @@
 ### Estudos em Python
-      Tópicos abordados:
+
+##### Tópicos abordados:
+
 ### 1 => Tipos de dados
+
 ### 2 => Modo interativo
+
 ### 3 => Variáveis e Constantes
+
 ### 4 => Conversão de tipos
+
 ### 5 => Funções de entrada e saída
+
 ### 6 => Operadores aritméticos/atribuição
+
 ### 7 => Operadores de comparação
+
 ### 8 => Operadores lógicos
+
 ### 9 => Operadores de identidade
+
 ### 10 => Operadores de associação
+
 ### 11 => Identação e blocos
+
 ### 12 => Estruturas condicionais
+
 ### 13 => if aninhado
+
 ### 14 => if ternário
+
 ### 15 => Estruturas de repetição
+
 ### 16 => Manipulando strings com Python
+
 ### 17 => Junções e centralização
+
 ### 18 => Interpolação de variáveis
+
 ### 19 => Formatar strings com f-strings
+
 ### 20 => Fatiamento de strings
+
 ### 21 => String de múltiplas linhas
+
 ### 22 => Listas: Criação e Acesso aos Dados
+
 ### 23 => Listas: Fatiamento
+
 ### 24 => Listas Aninhadas
+
 ### 25 => Metodos da classe list
+
+### 26 => Tuplas
+
+### 27 => Conjuntos
 
 
 - Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
@@ -738,4 +768,224 @@ exemplo:
   print(numeros_ordenados)  # Saída: [1, 2, 3, 4, 5]
   ```
 
-- No *sorted()* tam existe o *Key()* e *reverse()* e eles fazem a mesma coisa que no *sort()*.
+- No `sorted()` tam existe o `Key()` e `reverse()` e eles fazem a mesma coisa que no `sort()`.
+
+### 26 => Tuplas
+
+- As `tuplas` em Python são listas imutáveis, ou seja, eles podem ser usadas para armazenar valores, mas não podem ser alterados são muito semelhantes as listas
+e podem ser usada a palavra reservada `tuple` para cria uma tupla ou pode tam bem usar valores separados por `virgula` detro de parenteses.
+
+- Exemplo de tupla:
+  ```python
+  numeros = tupla([1, 2, 3, 4, 5])
+  print(tupla)  # Saída: (1, 2, 3, 4, 5)
+  ```
+- Exemplo de tupla com valores separados por virgula:
+  ```python
+  numeros = (1, 2, 3, 4, 5,)
+  print(tupla)  # Saída: (1, 2, 3, 4, 5)
+  ```
+
+- Para acessar os elementos de uma tupla, é igual a listas assim podemos usar o `fatiamento` para pegar os valores.
+
+- Exemplo:
+  ```python
+  numeros = (1, 2, 3, 4, 5,)
+  numeros[0]  # Saída: 1
+  numeros[2]  # Saída: 3
+  numeros[-1]  # Saída: 5
+  numeros[1:4]  # Saída: (2, 3, 4)
+  ```
+
+- `Tupla alinhadas`: É possivel criar tuplas alinhadas, ou seja, tuplas dentro de tuplas.
+
+- Exemplo:
+  ```python
+  numeros = ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+  print(numeros)  # Saída: ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+  print(numeros[0])  # Saída: (1, 2, 3)
+  print(numeros[1][2])  # Saída: 6
+  print(numeros[2][1])  # Saída: 8
+  print(numeros[0][0])  # Saída: 1
+  print(numeros[-1][-1])  # Saída: 9
+  print(numeros[-1])  # Saída: (7, 8, 9)
+  ```
+
+- Tambem e possivel usar o enumerate() para percorrer uma tupla:
+  ```python
+  numeros = (1, 2, 3, 4, 5)
+  for i, numero in enumerate(numeros):
+      print(i, numero)# Saída: 0 1
+                        #        1 2
+                        #        2 3
+                        #        3 4
+                        #        4 5
+  ```
+
+- `Metodos da tupla`:
+
+- `count()`: Conta o número de vezes que um elemento aparece na tupla.
+exemplo:
+  ```python
+  numeros = (1, 2, 3, 2, 4, 2)
+  print(numeros.count(2))  # Saída: 3
+  ```
+
+- `index()`: Retorna a posição do elemento que você quer encontrar na tupla.
+- exemplo:
+  ```python
+  numeros = (1, 2, 3, 4, 5)
+  print(numeros.index(3))  # Saída: 2
+  ```
+
+- `len()`: Retorna o número de elementos na tupla.
+- exemplo:
+  ```python
+  numeros = (1, 2, 3, 4, 5)
+  print(len(numeros))  # Saída: 5
+  ```
+
+### 27 => Conjuntos
+
+- Os `Conjuntos` em Python são listas sem ordem, ou seja, eles podem ser usados para armazenar valores, mas nao podem ser alterados mais eles não podem ter elementos duplicados se em sua lista existem elementos duplicados os conjuntos irao remover os elementos duplicados para dizer que é uma conjunto usamos a palavra reservada `set`.
+
+- Exemplo de conjunto:
+  ```python
+  numeros = [1, 2, 3, 4, 5, 3, 2, 1]
+  conjunto = set(numeros)
+  print(conjunto)  # Saída: {1, 2, 3, 4, 5}
+
+  fruta = "banana"
+  conjunto = set(fruta)
+  print(conjunto)  # Saída: {'a', 'b', 'n'}
+  ```
+
+- Tambem e possivel usar o metodo `for` para percorrer um conjunto:
+  ```python
+  conjunto = {1, 2, 3, 4, 5}
+  for numero in conjunto:
+      print(numero)  # Saída: 1
+                     #        2
+                     #        3
+                     #        4 
+                     #        5
+  ```
+
+- A funcão `enumerate()` também pode ser usada para percorrer um conjunto:
+  ```python
+  conjunto = {"A", "B", "C", "D", "E"}
+  for i, numero in enumerate(conjunto):
+      print(i, numero)  # Saída: 0 A
+                        #        1 B
+                        #        2 C
+                        #        3 D
+                        #        4 E
+  ``` 
+
+- Principais metodos do conjunto:
+
+  - `union()`: Une dois conjuntos.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {4, 5, 6}
+    conjunto_uniao = conjunto1.union(conjunto2)
+    print(conjunto_uniao)  # Saída: {1, 2, 3, 4, 5, 6}
+    ```
+
+  - `intersection()`: Retorna os elementos que estao presentes em ambos os conjuntos.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {3, 4, 5}
+    conjunto_intersecao = conjunto1.intersection(conjunto2)
+    print(conjunto_intersecao)  # Saída: {3}
+    ```
+  
+  - `difference()`: Retorna os elementos que estao presentes no primeiro conjunto, mas nao estao presentes no segundo conjunto.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {3, 4, 5}
+    conjunto_diferenca = conjunto1.difference(conjunto2)
+    print(conjunto_diferenca)  # Saída: {1, 2}
+    ```
+  
+  - `symmetric_difference()`: Retorna os elementos que estao presentes nos dois conjuntos, menos os elementos que estao presentes em ambos os conjuntos.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {3, 4, 5}
+    conjunto_diferenca_simetrica = conjunto1.symmetric_difference(conjunto2)
+    print(conjunto_diferenca_simetrica)  # Saída: {1, 2, 4, 5}
+    ```
+  
+  - `issubset()`: Retorna `True` se todos os elementos do primeiro conjunto estao presentes no segundo conjunto.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {1, 2, 3, 4, 5}
+    print(conjunto1.issubset(conjunto2))  # Saída: True
+    ```
+  
+  - `issuperset()`: Retorna `True` se todos os elementos do segundo conjunto estao presentes no primeiro conjunto.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {1, 2, 3, 4, 5}
+    print(conjunto2.issuperset(conjunto1))  # Saída: True
+    ```
+
+  - `isdisjoint()`: Retorna `True` se nenhum dos elementos do primeiro conjunto estao presentes no segundo conjunto.
+  - exemplo:
+    ```python
+    conjunto1 = {1, 2, 3}
+    conjunto2 = {4, 5, 6}
+    conjunto3 = {1, 2, 3, 4, 5, 6}
+    print(conjunto1.isdisjoint(conjunto2))  # Saída: True
+    print(conjunto1.isdisjoint(conjunto3))  # Saída: False
+    ```
+
+  - `add()`: Adiciona um elemento ao conjunto caso esse elemento esteja presente no conjunto ele sera ignorado.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    conjunto.add(4)
+    conjunto.add(2) # Elemento iguinorado por ser duplicado
+    print(conjunto)  # Saída: {1, 2, 3, 4}
+    ```
+
+  - `clear()`: Remove todos os elementos do conjunto.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    conjunto.clear()
+    print(conjunto)  # Saída: set()
+    ```
+  
+  - `copy()`: Cria uma cópia do conjunto.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    conjunto_copia = conjunto.copy()
+    print(conjunto_copia)  # Saída: {1, 2, 3}
+    ```
+
+  - `discard()`: Remove um elemento do conjunto caso ele esteja presente no conjunto.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    conjunto.discard(2)
+    print(conjunto)  # Saída: {1, 3}
+    ```
+  
+  - `pop()`: Remove o ultimo elemento do conjunto e o retorna.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    elemento_removido = conjunto.pop()
+    print(elemento_removido)  # Saída: 3
+    print(conjunto)  # Saída: {1, 2}
+    ```
+  
+  
