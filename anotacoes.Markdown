@@ -56,6 +56,8 @@
 
 ### 27 => Conjuntos
 
+### 28 => Dicionários
+
 
 - Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
 - A sintaxe do Python é clara e fácil de aprender, o que a torna uma excelente escolha para iniciantes e profissionais de tecnologia.
@@ -260,20 +262,20 @@
   ```python
   a = 10 
   b = 5
-  c = a + b # retorna 15
-  d = a - b # retorna 5
-  e = a * b # retorna 50
-  f = a / b # retorna 2.0
-  g = a // b # retorna 2
-  h = a % b # retorna 0
-  i = a ** b # retorna 100000
-  j = a += b # retorna 15
-  k = a -= b # retorna 10
-  l = a *= b # retorna 50
-  m = a /= b # retorna 10.0
-  n = a //= b # retorna 10
-  o = a %= b # retorna 0
-  p = a **= b # retorna 100000
+  a + b # retorna 15
+  a - b # retorna 5
+  a * b # retorna 50
+  a / b # retorna 2.0
+  a // b # retorna 2
+  a % b # retorna 0
+  a ** b # retorna 100000
+  a += b # retorna 15
+  a -= b # retorna 10
+  a *= b # retorna 50
+  a /= b # retorna 10.0
+  a //= b # retorna 10
+  a %= b # retorna 0
+  a **= b # retorna 100000
   ```
 
 ### 7 => Operadores de Comparação
@@ -669,7 +671,7 @@ Exemplos de uso das *estruturas de repetição*:
 
 ### 25 => Metodos da classe list
 
-- *append()*: Adiciona um elemento ao final da lista.
+- `append()`: Adiciona um elemento ao final da lista.
 exemplo:
   ```python
   numeros = [1, 2, 3]
@@ -677,7 +679,7 @@ exemplo:
   print(numeros)  # Saída: [1, 2, 3, 4]
   ```
 
-- *copy():* Cria uma cópia da lista.
+- `copy()`: Cria uma cópia da lista.
 exemplo:
   ```python
   numeros = [1, 2, 3]
@@ -685,14 +687,14 @@ exemplo:
   print(numeros_copia)  # Saída: [1, 2, 3]
   ```
 
-- *count()*: Conta o número de vezes que um elemento aparece na lista.
+- `count()`: Conta o número de vezes que um elemento aparece na lista.
 exemplo:
   ```python
   numeros = [1, 2, 3, 2, 4, 2]
   print(numeros.count(2))  # Saída: 3
   ```
 
-- *extend()*: Extende a lista adicionando os elementos de outra lista util quando vocé quer adicionar mais de um elemento a uma lista.
+- `extend()`: Extende a lista adicionando os elementos de outra lista util quando vocé quer adicionar mais de um elemento a uma lista.
 exemplo:
   ```python
   numeros = [1, 2, 3]
@@ -701,14 +703,14 @@ exemplo:
   print(numeros)  # Saída: [1, 2, 3, 4, 5, 6]
   ```
 
-- *index()*: Retorna a posição do elemento que você quer encontrar na lista.
+- `index()`: Retorna a posição do elemento que você quer encontrar na lista.
 exemplo:
   ```python
   numeros = [1, 2, 3, 4, 5]
   print(numeros.index(3))  # Saída: 2
   ```
 
-- *Pop()*: Remove o ultimo elemento da lista ou se desejar tam bem pode remover um elemento especifico da lista.
+- `pop()`: Remove o ultimo elemento da lista ou se desejar tam bem pode remover um elemento especifico da lista.
 exemplo:
   ```python
   numeros = [1, 2, 3, 4, 5]
@@ -718,7 +720,7 @@ exemplo:
   print(numeros)  # Saída: [1, 3, 4]
   ```
 
-- *remove()*: Remove o primeiro elemento da lista que seja igual ao elemento que vocé quer remover ou seja você escolhe o elemento que vocé quer remover.
+- `remove()`: Remove o primeiro elemento da lista que seja igual ao elemento que vocé quer remover ou seja você escolhe o elemento que vocé quer remover.
 exemplo:
   ```python
   numeros = [1, 2, 3, 4, 5]
@@ -726,7 +728,7 @@ exemplo:
   print(numeros)  # Saída: [1, 2, 4, 5]
   ```
 
-- *reverse()*: Inverte a ordem dos elementos na lista.
+- `reverse()`: Inverte a ordem dos elementos na lista.
 exemplo:
   ```python
   numeros = [1, 2, 3, 4, 5]
@@ -734,7 +736,7 @@ exemplo:
   print(numeros)  # Saída: [5, 4, 3, 2, 1]
   ```
 
-- *sort()*: Ordena a lista em ordem alfabetica/crescente.
+- `sort()`: Ordena a lista em ordem alfabetica/crescente.
 exemplo:
   ```python
   numeros = [4, 3, 2, 1, 5]
@@ -742,15 +744,22 @@ exemplo:
   print(numeros)  # Saída: [1, 2, 3, 4, 5]
   ```
 
-- Dentro do metodo *sort()* exite os seguintes parâmetros:
-  - *reverse = True*: Inverte a ordem dos elementos na lista.
-  - *key = str.lower*: Ordena a lista em ordem alfabetica, ignorando maiúsculas e minúsculas.
-  - *key = len*: Ordena a lista em ordem crescente de tamanho dos elementos.
-  - *key = lambda x: len(x)*: Ordena a lista em ordem crescente de tamanho dos elementos.
-  - *key = lambda x: len(x) * -1*: Ordena a lista em ordem decrescente de tamanho dos elementos.
+- Dentro do metodo *`sort()`* exite os seguintes parâmetros:
+  - *``reverse = True``*: Inverte a ordem dos elementos na lista.
+  - *``key = str.lower``*: Ordena a lista em ordem alfabetica, ignorando maiúsculas e minúsculas.
+  - *``key = len``*: Ordena a lista em ordem crescente de tamanho dos elementos.
+  - *``key = lambda x: len(x)``*: Ordena a lista em ordem crescente de tamanho dos elementos.
+  - *``key = lambda x: len(x) * -1``*: Ordena a lista em ordem decrescente de tamanho dos elementos.
   - Tambem e posivel juntar os parâmetros:
     ```python
-    numeros.sort(reverse=True, key=lambda x: len(x)) # Ordena a lista em ordem decrescente de tamanho dos elementos
+    # Lista de exemplo com strings de tamanhos diferentes
+    nomes = ["banana", "maçã", "morango", "abacaxi"]
+
+    # Ordena a lista em ordem decrescente de tamanho
+    nomes.sort(reverse=True, key=len)
+
+    print(nomes)
+    # Saída: ['abacaxi', 'morango', 'banana', 'maçã']
     ```
 
 - *len()*: Retorna o número de elementos na lista.
@@ -777,13 +786,13 @@ e podem ser usada a palavra reservada `tuple` para cria uma tupla ou pode tam be
 
 - Exemplo de tupla:
   ```python
-  numeros = tupla([1, 2, 3, 4, 5])
-  print(tupla)  # Saída: (1, 2, 3, 4, 5)
+  numeros = tuple([1, 2, 3, 4, 5])
+  print(numeros)  # Saída: (1, 2, 3, 4, 5)
   ```
 - Exemplo de tupla com valores separados por virgula:
   ```python
   numeros = (1, 2, 3, 4, 5,)
-  print(tupla)  # Saída: (1, 2, 3, 4, 5)
+  print(numeros)  # Saída: (1, 2, 3, 4, 5)
   ```
 
 - Para acessar os elementos de uma tupla, é igual a listas assim podemos usar o `fatiamento` para pegar os valores.
@@ -987,5 +996,158 @@ exemplo:
     print(elemento_removido)  # Saída: 3
     print(conjunto)  # Saída: {1, 2}
     ```
+
+  - `remove()`: Remove um elemento do conjunto caso ele esteja presente no conjunto.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    conjunto.remove(2)
+    print(conjunto)  # Saída: {1, 3}
+    ```
+
+  - `len()`: Retorna o número de elementos no conjunto.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    print(len(conjunto))  # Saída: 3
+    ```
   
-  
+  - `in()`: Retorna `True` se o elemento estiver presente no conjunto.
+  - exemplo:
+    ```python
+    conjunto = {1, 2, 3}
+    print(2 in conjunto)  # Saída: True
+    print(4 in conjunto)  # Saída: False
+    ```
+
+### 28 => Dicionários
+
+- Os `Dicionários` em Python são coleções de pares chave-valor, onde cada chave é única e mapeada para um valor. Eles são criados usando chaves `{}` e os pares chave-valor são separados por vírgulas.
+
+- Exemplo de dicionário:
+  ```python
+  pessoa = {
+      "nome": "João",
+      "idade": 30,
+      "cidade": "São Paulo"
+  }
+  print(f"O nome da pessoa é {pessoa['nome']} e ela tem {pessoa['idade']} anos e mora em {pessoa['cidade']}.")  # Saída: "O nome da pessoa é João e ela tem 30 anos e mora em São Paulo."
+  ```
+
+- Outra forma de declarar um dicionário é usando a função `dict()`:
+  ```python
+  pessoa = dict(nome="João", idade=30, cidade="São Paulo")
+  print(f"O nome da pessoa é {pessoa['nome']} e ela tem {pessoa['idade']} anos e mora em {pessoa['cidade']}.")  # Saída: "O nome da pessoa é João e ela tem 30 anos e mora em São Paulo."
+  ```
+
+- Outra forma é quando eu ja tenho um dicionário criado e quero adicionar um novo par chave-valor:
+  ```python
+  pessoa = {
+      "nome": "João",
+      "idade": 30,
+      "cidade": "São Paulo"
+  }
+  pessoa["email"] = "joao@example.com"
+  print(pessoa)  # Saída: {'nome': 'João', 'idade': 30, 'cidade': 'São Paulo', 'email': 'joao@example.com'}
+  ```
+
+- Nesse caso a chave é `"email"` e o valor é `"joao@example.com"` não existia antes no dicionário, foram adicionados através da atribuição de um valor a uma chave que não existia.
+
+- Para acessar os valores de um dicionário, você pode usar a chave correspondente entre colchetes `[]`.
+- Exemplo de acesso aos valores de um dicionário:
+  ```python
+  pessoa = {
+      "nome": "João",
+      "idade": 30,
+      "cidade": "São Paulo"
+  }
+  print(pessoa["nome"])  # Saída: João
+  print(pessoa["idade"])  # Saída: 30
+  print(pessoa["cidade"])  # Saída: São Paulo
+  ```
+
+- Percebe-se que para acessar o valor associado a uma chave, você simplesmente usa o nome da chave entre colchetes após o nome do dicionário.
+
+- `Dicionários Aninhados`:
+
+- É possivel fazer um dicionário aninhado, ou seja, um dicionário dentro de outro dicionário.
+- Exemplo de dicionário aninhado:
+  ```python
+  pessoa = {
+      "nome": "João",
+      "idade": 30,
+      "endereco": {
+          "rua": "Rua A",
+          "numero": 123,
+          "cidade": "São Paulo"
+      }
+  }
+  print(pessoa["endereco"]["rua"])  # Saída: Rua A
+  print(pessoa["endereco"]["numero"])  # Saída: 123
+  print(pessoa["endereco"]["cidade"])  # Saída: São Paulo
+  ```
+
+- No exemplo acima, o dicionário `pessoa` contém uma chave `"endereco"` que mapeia para outro dicionário com as chaves `"rua"`, `"numero"` e `"cidade"`. Você pode acessar os valores do dicionário aninhado usando a mesma notação de colchetes.
+
+- `iterar dicionários`:
+
+- Você pode iterar ou acessar os item de um dicionário usando o método `for`.
+- Exemplo:
+  ```python
+  pessoa = {
+      "nome": "João",
+      "idade": 30,
+      "cidade": "São Paulo"
+  }
+  for chave, valor in pessoa.items(): # for usando o metodo items
+      print(f"{chave}: {valor}")
+  # Saída:
+  # nome: João
+  # idade: 30
+  # cidade: São Paulo
+
+  for chave in pessoa: # for sem usar o metodo items
+      print(f"{chave}: {pessoa[chave]}")
+  # Saída:
+  # nome: João
+  # idade: 30
+  # cidade: São Paulo
+  ```
+
+- No exemplo acima, o primeiro `for` usa o método `items()` para iterar sobre os pares chave-valor do dicionário, enquanto o segundo `for` itera apenas sobre as chaves e acessa os valores correspondentes.
+
+- O metodo `items()` retorna uma lista de tuplas, onde cada tupla contém uma chave e seu valor correspondente. Isso permite que você acesse tanto a chave quanto o valor durante a iteração.
+
+- `Principais Métodos do Dicionario`
+
+  - `clear()`: Remove todos os itens de um dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      pessoa.clear()
+      print(pessoa)  # Saída: {}
+      ```
+
+  - `copy()`: Retorna uma cópia rasa (shallow copy) do dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      copia = pessoa.copy()
+      print(copia)  # Saída: {'nome': 'João', 'idade': 30, 'cidade': 'São Paulo'}
+      ```
+
+  - `fromkeys()`: Cria um dicionário com chaves a partir de uma sequência e um valor padrão.
+    - Exemplo:
+      ```python
+      chaves = ["nome", "idade", "cidade"]
+      pessoa = dict.fromkeys(chaves, "Desconhecido")
+      print(pessoa)  # Saída: {'nome': 'Desconhecido', 'idade': 'Desconhecido', 'cidade': 'Desconhecido'}
+      ```
