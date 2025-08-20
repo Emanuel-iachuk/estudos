@@ -1151,3 +1151,137 @@ exemplo:
       pessoa = dict.fromkeys(chaves, "Desconhecido")
       print(pessoa)  # Saída: {'nome': 'Desconhecido', 'idade': 'Desconhecido', 'cidade': 'Desconhecido'}
       ```
+
+  - `get()`: Retorna o valor associado a uma chave, ou um valor padrão se a chave não for encontrada.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      print(pessoa.get("nome", "Desconhecido"))  # Saída: João
+      print(pessoa.get("email", "Desconhecido"))  # Saída: Desconhecido que é o valor padrão
+      print(pessoa.get("CPF"))  # Saída: None porque não foi definido um valor padrão
+      print(pessoa["CPF"])  # keyError por que CPF não existe
+      ```
+
+  - `items()`: Retorna uma lista de tuplas contendo as chaves e seus respectivos valores.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      print(pessoa.items())  # Saída: dict_items([('nome', 'João'), ('idade', 30), ('cidade', 'São Paulo')])
+      ```
+
+  - `keys()`: Retorna uma lista das chaves do dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      print(pessoa.keys())  # Saída: dict_keys(['nome', 'idade', 'cidade'])
+      ```
+
+  - `pop`: Remove um par chave-valor de um dicionário e retorna o valor correspondente.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      idade = pessoa.pop("idade")
+      print(idade)  # Saída: 30
+      print(pessoa)  # Saída: {'nome': 'João', 'cidade': 'São Paulo'}
+
+      resultado = pessoa.pop("cidade")
+      print(resultado)  # Saída: São Paulo
+      print(pessoa)  # Saída: {'nome': 'João'}
+
+      resultado = pessoa.pop("email", "Desconhecido")
+      print(resultado)  # Saída: sera Desconhecido porque o email não existe e "Desconhecido" é um valor padrão
+      print(pessoa)  # Saída: {'nome': 'João'}
+      ```
+
+  - `popitem()`: Remove e retorna um par chave-valor aleatório de um dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      item = pessoa.popitem()
+      print(item)  # Saída: ('cidade', 'São Paulo') ou outro par aleatório
+      print(pessoa)  # Saída: {'nome': 'João', 'idade': 30} ou outro dicionário sem o par removido
+      ```
+
+  - `setdefault()`: Retorna o valor de uma chave, e se a chave não existir, a adiciona com um valor padrão.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30
+      }
+      cidade = pessoa.setdefault("cidade", "São Paulo")
+      print(cidade)  # Saída: São Paulo
+      print(pessoa)  # Saída: {'nome': 'João', 'idade': 30, 'cidade': 'São Paulo'}
+      cidade = pessoa.setdefault("cidade", "Rio de Janeiro")
+      print(cidade)  # Saída:sera São Paulo por que a chave "cidade" já existe e o valor não sera alterado
+      print(pessoa)  # Saída: {'nome': 'João', 'idade': 30, 'cidade': 'São Paulo'}
+      ```
+
+  - `update()`: Atualiza um dicionário com pares chave-valor de outro dicionário ou de um iterável de pares chave-valor.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30
+      }
+      pessoa.update({"cidade": "São Paulo", "idade": 31})
+      print(pessoa)  # Saída: {'nome': 'João', 'idade': 31, 'cidade': 'São Paulo'}
+
+      pessoa.update({"nome": "Maria"}) # O valor anterio de nome sera substituido por "Maria".
+      print(pessoa)  # Saída: {'nome': 'Maria', 'idade': 31, 'cidade': 'São Paulo'}
+      ```
+
+  - `values()`: Retorna uma lista dos valores do dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      print(pessoa.values())  # Saída: dict_values(['João', 30, 'São Paulo'])
+      ```
+
+  - `in`: Verifica se uma chave existe em um dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      print("nome" in pessoa)  # Saída: True
+      print("email" in pessoa)  # Saída: False
+      ```
+
+  - `del()`: Remove uma chave e seu valor correspondente de um dicionário.
+    - Exemplo:
+      ```python
+      pessoa = {
+          "nome": "João",
+          "idade": 30,
+          "cidade": "São Paulo"
+      }
+      del pessoa["idade"]
+      print(pessoa)  # Saída: {'nome': 'João', 'cidade': 'São Paulo'}
+      ```
