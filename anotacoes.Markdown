@@ -1,63 +1,127 @@
 ### Estudos em Python
 
-##### Tópicos abordados:
+##### Tópicos abordados
 
 ### 1 => Tipos de dados
 
+- `Números (int, float), texto(str), Booleano(bool) tipos basicos para armazenar informações`
+
 ### 2 => Modo interativo
+
+- `Usar o interpretador do Python diretamente no terminal para executar comandos linha por linha e testar códigos rapidamente.`
 
 ### 3 => Variáveis e Constantes
 
+- `Nomes usados para armazenar dados na memória. Constantes são variáveis cujo valor não deve ser alterado.`
+
 ### 4 => Conversão de tipos
+
+- `Processo de converter um tipo de dado em outro, como transformar um texto em número (int(), float()) ou vice-versa (str()).`
 
 ### 5 => Funções de entrada e saída
 
+- `Funções como input() e print() são usadas para entrada e saída de dados.`
+
 ### 6 => Operadores aritméticos/atribuição
+
+- `Aritméticos: Realizam operações matemáticas (+, -, *, /, **).
+Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=).`
 
 ### 7 => Operadores de comparação
 
+- `Compararam valores e retornam True ou False (==, !=, <, >, <=, >=).`
+
 ### 8 => Operadores lógicos
+
+- `Combinam expressões lógicas para retornar True ou False (and, or, not).`
 
 ### 9 => Operadores de identidade
 
+- `Verificam se duas variáveis apontam para o mesmo objeto na memória (is, is not).`
+
 ### 10 => Operadores de associação
+
+- `Verificam se um elemento está presente em uma sequência (in, not in).`
 
 ### 11 => Identação e blocos
 
+- `O uso de espaços em branco (geralmente 4) no início das linhas para definir blocos de código e a estrutura lógica do programa.`
+
 ### 12 => Estruturas condicionais
+
+- `Executam blocos de código com base em condições (if, elif, else).`
 
 ### 13 => if aninhado
 
+- `Usar um if dentro de outro para testar múltiplas condições.`
+
 ### 14 => if ternário
+
+- `Uma forma curta de escrever um if/else em uma única linha.`
 
 ### 15 => Estruturas de repetição
 
+- `Executam um bloco de código várias vezes (for e while).`
+
 ### 16 => Manipulando strings com Python
+
+- `As strings em Python podem ser manipuladas de várias maneiras, incluindo fatiamento, junção e formatação.`
 
 ### 17 => Junções e centralização
 
+- `Métodos como .join() para unir strings e .center() para centralizar texto.`
+
 ### 18 => Interpolação de variáveis
+
+- `A interpolação de variáveis permite inserir valores de variáveis dentro de strings de forma dinâmica.`
 
 ### 19 => Formatar strings com f-strings
 
+- `Uma forma moderna e eficiente de interpolar variáveis e formatar saídas.`
+
 ### 20 => Fatiamento de strings
+
+- `Extrai partes de uma string usando índices [inicio:fim:passo].`
 
 ### 21 => String de múltiplas linhas
 
+- `Cria textos que ocupam várias linhas no código, usando aspas triplas.`
+
 ### 22 => Listas: Criação e Acesso aos Dados
+
+- `Coleções ordenadas e mutáveis de itens, acessadas por índices.`
 
 ### 23 => Listas: Fatiamento
 
+- `Extrai partes de uma lista, criando uma nova sublista.`
+
 ### 24 => Listas Aninhadas
+
+- `Listas dentro de listas, permitindo a criação de estruturas de dados mais complexas.`
 
 ### 25 => Metodos da classe list
 
+- `Métodos como .append(), .remove() e .sort() são usados para manipular listas.`
+
 ### 26 => Tuplas
+
+- `Coleções ordenadas e imutáveis de itens, acessadas por índices.`
 
 ### 27 => Conjuntos
 
+- `Coleções não ordenadas de itens únicos, sem duplicatas.`
+
 ### 28 => Dicionários
 
+- `Coleções de pares chave-valor, permitindo o acesso rápido a dados.`
+
+### 29 => Funções em Python
+
+- `Blocos de código reutilizáveis que realizam uma tarefa específica e podem receber entradas (argumentos) e retornar saídas (valores).`
+
+### 30 => Programação Orientada a Objetos (POO)
+
+- `Um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades, facilitando a organização e reutilização do código.`
 
 - Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
 - A sintaxe do Python é clara e fácil de aprender, o que a torna uma excelente escolha para iniciantes e profissionais de tecnologia.
@@ -1285,3 +1349,182 @@ exemplo:
       del pessoa["idade"]
       print(pessoa)  # Saída: {'nome': 'João', 'cidade': 'São Paulo'}
       ```
+
+### 29 => Funções em Python
+
+- ``O que são Funções``
+
+- Funções são blocos de código reutilizáveis que realizam uma tarefa específica. Elas permitem organizar o código em partes menores e mais gerenciáveis, facilitando a leitura, manutenção e reutilização.
+
+- As Funções em Python são muito recomendadas para evitar a repetição de código e para tornar o programa mais modular. Elas podem receber parâmetros de entrada e retornar valores de saída.
+
+- Exemplos de Funções:
+
+```python
+def saudacao(nome):
+    return f"Olá, {nome}!"
+
+print(saudacao("João"))  # Saída: Olá, João!
+
+def soma(a, b):
+    return a + b
+
+print(soma(5, 3))  # Saída: 8
+
+def calcular_area(base, altura):
+    return (base * altura) / 2
+
+print(calcular_area(5, 10))  # Saída: 25.0
+def calcular_media(notas):
+    return sum(notas) / len(notas)
+notas = [7.5, 8.0, 9.0]
+print(calcular_media(notas))  # Saída: 8.5
+```
+- As Funções em python precisam sempre ser chamadas depois de declaradas, caso contrario é a mesma coisa como se não existissem.
+
+- Valores ``default`` podem ser definidos para parâmetros de funções, permitindo que a função seja chamada com menos argumentos do que os definidos.
+- Exemplo de valores default:
+```python
+def saudacao(nome="Visitante"):
+    return f"Olá, {nome}!"
+
+print(saudacao())  # Saída: Olá, Visitante!
+print(saudacao("João"))  # Saída: Olá, João!
+```
+
+- ``Retornando valores``
+
+- Em  python diferente de outras linguagem e possivel retornar mais de um valor, E toda função em python retorna um valor, se não houver um valor explicitamente retornado, a função retornará `None` por padrao.
+
+- Exemplo:
+```python
+def calcular(valores):
+    total = sum(valores)
+    media = total / len(valores) if valores else 0
+    return total, media
+
+resultado = calcular([10, 20, 30])
+print(resultado)  # Saída: (60, 20.0)
+# Exemplo de função que retorna mais de um valor
+def dividir(a, b):
+    if b == 0:
+        return None, "Erro: Divisão por zero"
+    return a / b, None
+
+resultado, erro = dividir(10, 0)
+print(resultado)  # Saída: None
+resultado2, erro2 = dividir(10, 2)
+print(resultado2)  # Saída: 5.0
+```
+
+- `Argumentos Nomeados`
+
+- Em python e em outras linguagens, é possível passar argumentos nomeados para funções, tornando a chamada da função mais clara e legível.
+
+- Exemplo:
+```python
+def exibir_informacoes(nome, idade):
+    print(f"Nome: {nome}, Idade: {idade}")
+
+exibir_informacoes(idade=30, nome="João")  # Saída: Nome: João, Idade: 30
+
+def exibir_Informcoes(**{"nome": nome, "idade": idade}):
+    print(f"Nome: {nome}, Idade: {idade}")  # Saída: Nome: João, Idade:
+```
+
+- Nesse ultimo exemplo colocamos os argumentos em um dicionário, o que permite passar um número variável de argumentos nomeados para a função sendo muito útil para funções que precisam lidar com muitos parâmetros.
+
+- `Args e Kwargs`
+
+- Podemos combinar parâmetros obrigatórios com `Args` e `Kwargs`. Quando esses são definidos ``(*args e **kwargs)``, O método recebe os valores como tupla e dicionário respectivamente.
+
+- Exemplo:
+```python
+def exibir_dados(nome, *args, **kwargs):
+    print(f"Nome: {nome}")
+    print("Dados adicionais:")
+    for arg in args:
+        print(f" - {arg}")
+    for chave, valor in kwargs.items():
+        print(f" {chave}: {valor}")
+
+exibir_dados("João", 30, "São Paulo", profissao="Engenheiro", hobby="Futebol") # Saída: Nome: João, Dados adicionais:  - 30  - São Paulo  profissao: Engenheiro  hobby: Futebol
+```
+
+- `Parâmetros especiais`
+
+- Por padrão, Argumentos podem ser pasados para uma função python tanto por posição quanto por nome. Para melhorar a legibilidade e desempenho, é recomendável usar argumentos nomeados sempre que possível.
+
+- `Positional only`, Em python o termo `parâmetro posicional` refere-se a um argumento que deve ser passado para a função na ordem correta, sem usar o nome do parâmetro. Para definir um parâmetro como posicional apenas, você pode usar a sintaxe `/` na definição da função.
+
+```python
+def exemplo_funcao(a, b, /, c, d, *, e, f):
+    print(a, b, c, d, e, f)
+
+exemplo_funcao(1, 2, 3, 4, e=5, f=6)  # Saída: 1 2 3 4 5 6
+# exemplo_funcao(a=1, b=2, c=3, d=4, e=5, f=6)  # Isso geraria um erro
+```
+
+- No exemplo acima, os parâmetros `a` e `b` são posicional apenas, o que significa que eles devem ser passados na ordem correta sem usar seus nomes. Os parâmetros `c` e `d` podem ser passados por posição ou por nome, enquanto os parâmetros `e` e `f` são nomeados apenas, o que significa que eles devem ser passados usando seus nomes.
+
+- `Keyword-only`, Em python o termo `parâmetro nomeado` refere-se a um argumento que deve ser passado para a função usando o nome do parâmetro. Para definir um parâmetro como nomeado apenas, você pode usar a sintaxe `*` na definição da função.
+
+```python
+def exemplo_funcao(a, b, *, c, d):
+    print(a, b, c, d)
+
+exemplo_funcao(1, 2, c=3, d=4)  # Saída: 1 2 3 4
+# exemplo_funcao(1, 2, 3, 4)  # Isso geraria um erro
+```
+
+- No exemplo acima, os parâmetros `a` e `b` podem ser passados por posição ou por nome, enquanto os parâmetros `c` e `d` são nomeados apenas, o que significa que eles devem ser passados usando seus nomes se caso forem passados sem o nome isso gerará um erro como mostrado no exemplo.
+
+- `Keyword and positional only`, Em python é possível combinar parâmetros nomeados e posicionais apenas em uma única função. Para fazer isso, você pode usar a sintaxe `/` e `*` na definição da função.
+
+```python
+def exemplo_funcao(a, b, /, c, d, *, e, f):
+    print(a, b, c, d, e, f)
+
+exemplo_funcao(1, 2, 3, 4, e=5, f=6)  # Saída: 1 2 3 4 5 6
+# exemplo_funcao(a=1, b=2, c=3, d=4, e=5, f=6)  # Isso geraria um erro
+```
+
+- No exemplo a cima existem dois parâmetros posicional apenas `a` e `b`, dois parâmetros que podem ser passados por posição ou por nome `c` e `d`, e dois parâmetros nomeados apenas `e` e `f`.
+
+- `Objetos de primeira classe`
+
+- Em Python, funções, métodos e classes são tratados como objetos de primeira classe. Isso significa que podem ser passados como argumentos, retornados de outras funções e atribuídos a variáveis.
+
+```python
+def somar(a, b):
+    return a + b
+
+def executar_funcao(a, b, funcao):
+    resultado = funcao(a, b)
+    print(f"A soma de {a} + {b} = {resultado}")
+
+executar_funcao(5, 10, somar) # Saída: A soma de 5 + 10 = 15
+```
+
+- Podemos observar que no exemplo acima a função `executar_funcao` é capaz de receber a função `somar` como argumento e executá-la, demonstrando que funções são objetos de primeira classe em Python e ao chamar a `somar` não precisamos executá-la, somente passamos a referência.
+
+- `Escopo local e global`
+
+- Em Python, o escopo refere-se à área do código onde uma variável ou função é reconhecida e acessível. Existem dois tipos principais de escopo: local e global para utilizar objetos globais usamos a palavra reservada `global`.
+
+- Exemplo
+```python
+salario = 5000  # Variável global
+
+def salario_bonus(bonus):
+    global salario  # Indica que estamos usando a variável global 'salario'
+    salario += bonus  # Modifica a variável global
+    return salario
+
+print(salario_bonus(1000))  # Saída: 6000
+```
+
+- Nos usamos a palavra reservada `global` para indicar que a variável `y` é global e pode ser acessada fora da função. Sem o `global`, `y` seria uma variável local e não poderia ser acessada fora da função, caso isso acontesse isso geraria um erro.
+
+
+### 30 => Programaçao Orientada a Objetos (POO)
