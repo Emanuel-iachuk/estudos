@@ -2,126 +2,126 @@
 
 ## Tópicos abordados
 
-### [1. Tipos de dados](#1-tipos-de-dados)
+## [1.Tipos de Dados](#1-tipos-de-dados)
 
 - `Números (int, float), texto(str), Booleano(bool) tipos basicos para armazenar informações`
 
-### [2. Modo interativo](#2-modo-interativo)
+## [2.Modo interativo](#2-modo-interativo)
 
 - `Usar o interpretador do Python diretamente no terminal para executar comandos linha por linha e testar códigos rapidamente.`
 
-### [3. Variáveis e Constantes](#-variaveis-e-constantes)
+## [3.Variáveis e Constantes](#3-variaveis-e-constantes)
 
 - `Nomes usados para armazenar dados na memória. Constantes são variáveis cujo valor não deve ser alterado.`
 
-### [4. Conversão de tipos](#-conversao-de-tipos)
+## [4.Conversão de tipos](#4-conversao-de-tipos)
 
 - `Processo de converter um tipo de dado em outro, como transformar um texto em número (int(), float()) ou vice-versa (str()).`
 
-### [5. Funções de entrada e saída](#-funcoes-de-entrada-e-saida)
+## [5.Funções de entrada e saída](#5-funcoes-de-entrada-e-saida)
 
 - `Funções como input() e print() são usadas para entrada e saída de dados.`
 
-### [6. Operadores aritméticos/atribuição](#-operadores-aritmeticosatribuição)
+## [6.Operadores aritméticos/atribuição](#6-operadores-aritmeticosatribuição)
 
 - `Aritméticos: Realizam operações matemáticas (+, -, *, /, **).
 Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=).`
 
-### [7. Operadores de comparação](#-operadores-de-comparacao)
+## [7.Operadores de comparação](#7-operadores-de-comparacao)
 
 - `Compararam valores e retornam True ou False (==, !=, <, >, <=, >=).`
 
-### [8. Operadores lógicos](#-operadores-logicos)
+## [8.Operadores lógicos](#8-operadores-logicos)
 
 - `Combinam expressões lógicas para retornar True ou False (and, or, not).`
 
-### [9. Operadores de identidade](#-operadores-de-identidade)
+## [9.Operadores de identidade](#9-operadores-de-identidade)
 
 - `Verificam se duas variáveis apontam para o mesmo objeto na memória (is, is not).`
 
-### [10. Operadores de associação](#-operadores-de-associacao)
+## [10.Operadores de associação](#10-operadores-de-associacao)
 
 - `Verificam se um elemento está presente em uma sequência (in, not in).`
 
-### [11. Identação e blocos](#-identacao-e-blocos)
+## [11.Identação e blocos](#11-identacao-e-blocos)
 
 - `O uso de espaços em branco (geralmente 4) no início das linhas para definir blocos de código e a estrutura lógica do programa.`
 
-### [12. Estruturas condicionais](#-estruturas-condicionais)
+## [12.Estruturas condicionais](#12-estruturas-condicionais)
 
 - `Executam blocos de código com base em condições (if, elif, else).`
 
-### [13. If aninhado](#-if-aninhado)
+## [13.If aninhado](#13-if-aninhado)
 
 - `Usar um if dentro de outro para testar múltiplas condições.`
 
-### [14. If ternário](#-if-ternario)
+## [14.If ternário](#14-if-ternario)
 
 - `Uma forma curta de escrever um if/else em uma única linha.`
 
-### [15. Estruturas de repetição](#-estruturas-de-repeticao)
+## [15.Estruturas de repetição](#15-estruturas-de-repeticao)
 
 - `Executam um bloco de código várias vezes (for e while).`
 
-### [16. Manipulando strings com Python](#-manipulando-strings-com-python)
+## [16.Manipulando strings com Python](#16-manipulando-strings-com-python)
 
 - `As strings em Python podem ser manipuladas de várias maneiras, incluindo fatiamento, junção e formatação.`
 
-### [17. Junções e centralização](#-juncoes-e-centralizacao)
+## [17.Junções e centralização](#17-juncoes-e-centralizacao)
 
 - `Métodos como .join() para unir strings e .center() para centralizar texto.`
 
-### [18. Interpolação de variáveis](#-interpolacao-de-variaveis)
+## [18.Interpolação de variáveis](#18-interpolacao-de-variaveis)
 
 - `A interpolação de variáveis permite inserir valores de variáveis dentro de strings de forma dinâmica.`
 
-### [19. Formatar strings com f-strings](#-formatar-strings-com-f-strings)
+## [19.Formatar strings com f-strings](#19-formatar-strings-com-f-strings)
 
 - `Uma forma moderna e eficiente de interpolar variáveis e formatar saídas.`
 
-### [20. Fatiamento de strings](#-fatiamento-de-strings)
+## [20.Fatiamento de strings](#20-fatiamento-de-strings)
 
 - `Extrai partes de uma string usando índices [inicio:fim:passo].`
 
-### [21. String de múltiplas linhas](#-string-de-multiplas-linhas)
+## [21.String de múltiplas linhas](#21-string-de-multiplas-linhas)
 
 - `Cria textos que ocupam várias linhas no código, usando aspas triplas.`
 
-### [22. Listas: Criação e Acesso aos Dados](#-listas-criacao-e-acesso-aos-dados)
+## [22.Listas: Criação e Acesso aos Dados](#22-listas-criacao-e-acesso-aos-dados)
 
 - `Coleções ordenadas e mutáveis de itens, acessadas por índices.`
 
-### [23. Listas: Fatiamento](#-listas-fatiamento)
+## [23.Listas: Fatiamento](#23-listas-fatiamento)
 
 - `Extrai partes de uma lista, criando uma nova sublista.`
 
 - `Extrai partes de uma lista, criando uma nova sublista.`
 
-### [24. Listas Aninhadas](#-listas-aninhadas)
+## [24.Listas Aninhadas](#24-listas-aninhadas)
 
 - `Listas dentro de listas, permitindo a criação de estruturas de dados mais complexas.`
 
-### [25. Métodos da classe list](#-metodos-da-classe-list)
+## [25.Métodos da classe list](#25-metodos-da-classe-list)
 
 - `Métodos como .append(), .remove() e .sort() são usados para manipular listas.`
 
-### [26. Tuplas](#-tuplas)
+## [26.Tuplas](#26-tuplas)
 
 - `Coleções ordenadas e imutáveis de itens, acessadas por índices.`
 
-### [27. Conjuntos](#-conjuntos)
+## [27.Conjuntos](#27-conjuntos)
 
 - `Coleções não ordenadas de itens únicos, sem duplicatas.`
 
-### [28. Dicionários](#-dicionarios)
+## [28.Dicionários](#28-dicionarios)
 
 - `Coleções de pares chave-valor, permitindo o acesso rápido a dados.`
 
-### [29. Funções em Python](#-funcoes-em-python)
+## [29.Funções em Python](#29-funcoes-em-python)
 
 - `Blocos de código reutilizáveis que realizam uma tarefa específica e podem receber entradas (argumentos) e retornar saídas (valores).`
 
-### [30. Programação Orientada a Objetos (POO)](#-programacao-orientada-a-objetos-poo)
+## [30.Programação Orientada a Objetos (POO)](#30-programacao-orientada-a-objetos-poo)
 
 - `Um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades, facilitando a organização e reutilização do código.`
 
@@ -169,7 +169,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
   - *Conjuntos*: `set` => coleções não ordenadas de itens únicos, como {1, 2, 3}.
 
-### 2 => Modo interativo
+# 2. Modo interativo
 
 - O modo interativo do Python permite que você execute comandos e veja os resultados imediatamente. É uma ótima maneira de testar pequenos trechos de código e aprender a linguagem.
 
