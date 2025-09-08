@@ -1,127 +1,138 @@
-### Estudos em Python
+# Estudos em Python
 
-##### Tópicos abordados
+## Tópicos abordados
 
-### 1 => Tipos de dados
+### [1. Tipos de dados](#-tipos-de-dados)
 
 - `Números (int, float), texto(str), Booleano(bool) tipos basicos para armazenar informações`
 
-### 2 => Modo interativo
+### [2. Modo interativo](#-modo-interativo)
 
 - `Usar o interpretador do Python diretamente no terminal para executar comandos linha por linha e testar códigos rapidamente.`
 
-### 3 => Variáveis e Constantes
+### [3. Variáveis e Constantes](#-variaveis-e-constantes)
 
 - `Nomes usados para armazenar dados na memória. Constantes são variáveis cujo valor não deve ser alterado.`
 
-### 4 => Conversão de tipos
+### [4. Conversão de tipos](#-conversao-de-tipos)
 
 - `Processo de converter um tipo de dado em outro, como transformar um texto em número (int(), float()) ou vice-versa (str()).`
 
-### 5 => Funções de entrada e saída
+### [5. Funções de entrada e saída](#-funcoes-de-entrada-e-saida)
 
 - `Funções como input() e print() são usadas para entrada e saída de dados.`
 
-### 6 => Operadores aritméticos/atribuição
+### [6. Operadores aritméticos/atribuição](#-operadores-aritmeticosatribuição)
 
 - `Aritméticos: Realizam operações matemáticas (+, -, *, /, **).
 Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=).`
 
-### 7 => Operadores de comparação
+### [7. Operadores de comparação](#-operadores-de-comparacao)
 
 - `Compararam valores e retornam True ou False (==, !=, <, >, <=, >=).`
 
-### 8 => Operadores lógicos
+### [8. Operadores lógicos](#-operadores-logicos)
 
 - `Combinam expressões lógicas para retornar True ou False (and, or, not).`
 
-### 9 => Operadores de identidade
+### [9. Operadores de identidade](#-operadores-de-identidade)
 
 - `Verificam se duas variáveis apontam para o mesmo objeto na memória (is, is not).`
 
-### 10 => Operadores de associação
+### [10. Operadores de associação](#-operadores-de-associacao)
 
 - `Verificam se um elemento está presente em uma sequência (in, not in).`
 
-### 11 => Identação e blocos
+### [11. Identação e blocos](#-identacao-e-blocos)
 
 - `O uso de espaços em branco (geralmente 4) no início das linhas para definir blocos de código e a estrutura lógica do programa.`
 
-### 12 => Estruturas condicionais
+### [12. Estruturas condicionais](#-estruturas-condicionais)
 
 - `Executam blocos de código com base em condições (if, elif, else).`
 
-### 13 => if aninhado
+### [13. If aninhado](#-if-aninhado)
 
 - `Usar um if dentro de outro para testar múltiplas condições.`
 
-### 14 => if ternário
+### [14. If ternário](#-if-ternario)
 
 - `Uma forma curta de escrever um if/else em uma única linha.`
 
-### 15 => Estruturas de repetição
+### [15. Estruturas de repetição](#-estruturas-de-repeticao)
 
 - `Executam um bloco de código várias vezes (for e while).`
 
-### 16 => Manipulando strings com Python
+### [16. Manipulando strings com Python](#-manipulando-strings-com-python)
 
 - `As strings em Python podem ser manipuladas de várias maneiras, incluindo fatiamento, junção e formatação.`
 
-### 17 => Junções e centralização
+### [17. Junções e centralização](#-juncoes-e-centralizacao)
 
 - `Métodos como .join() para unir strings e .center() para centralizar texto.`
 
-### 18 => Interpolação de variáveis
+### [18. Interpolação de variáveis](#-interpolacao-de-variaveis)
 
 - `A interpolação de variáveis permite inserir valores de variáveis dentro de strings de forma dinâmica.`
 
-### 19 => Formatar strings com f-strings
+### [19. Formatar strings com f-strings](#-formatar-strings-com-f-strings)
 
 - `Uma forma moderna e eficiente de interpolar variáveis e formatar saídas.`
 
-### 20 => Fatiamento de strings
+### [20. Fatiamento de strings](#-fatiamento-de-strings)
 
 - `Extrai partes de uma string usando índices [inicio:fim:passo].`
 
-### 21 => String de múltiplas linhas
+### [21. String de múltiplas linhas](#-string-de-multiplas-linhas)
 
 - `Cria textos que ocupam várias linhas no código, usando aspas triplas.`
 
-### 22 => Listas: Criação e Acesso aos Dados
+### [22. Listas: Criação e Acesso aos Dados](#-listas-criacao-e-acesso-aos-dados)
 
 - `Coleções ordenadas e mutáveis de itens, acessadas por índices.`
 
-### 23 => Listas: Fatiamento
+### [23. Listas: Fatiamento](#-listas-fatiamento)
 
 - `Extrai partes de uma lista, criando uma nova sublista.`
 
-### 24 => Listas Aninhadas
+- `Extrai partes de uma lista, criando uma nova sublista.`
+
+### [24. Listas Aninhadas](#-listas-aninhadas)
 
 - `Listas dentro de listas, permitindo a criação de estruturas de dados mais complexas.`
 
-### 25 => Metodos da classe list
+### [25. Métodos da classe list](#-metodos-da-classe-list)
 
 - `Métodos como .append(), .remove() e .sort() são usados para manipular listas.`
 
-### 26 => Tuplas
+### [26. Tuplas](#-tuplas)
 
 - `Coleções ordenadas e imutáveis de itens, acessadas por índices.`
 
-### 27 => Conjuntos
+### [27. Conjuntos](#-conjuntos)
 
 - `Coleções não ordenadas de itens únicos, sem duplicatas.`
 
-### 28 => Dicionários
+### [28. Dicionários](#-dicionarios)
 
 - `Coleções de pares chave-valor, permitindo o acesso rápido a dados.`
 
-### 29 => Funções em Python
+### [29. Funções em Python](#-funcoes-em-python)
 
 - `Blocos de código reutilizáveis que realizam uma tarefa específica e podem receber entradas (argumentos) e retornar saídas (valores).`
 
-### 30 => Programação Orientada a Objetos (POO)
+### [30. Programação Orientada a Objetos (POO)](#-programacao-orientada-a-objetos-poo)
 
 - `Um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades, facilitando a organização e reutilização do código.`
+
+- `Fundamentos de POO: Classes, Objetos, Atributos, Métodos, Herança, Encapsulamento e Polimorfismo.`
+
+- `Metodos e funções: Diferença entre métodos (funções dentro de classes) e funções (blocos de código independentes).`
+
+- `Metodos dunder ou metodos Magicos`
+
+##
+
 
 - Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
 - A sintaxe do Python é clara e fácil de aprender, o que a torna uma excelente escolha para iniciantes e profissionais de tecnologia.
@@ -138,7 +149,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   - **Django**: um framework web robusto para desenvolvimento de aplicações web.
   - **Flask**: um microframework web leve e flexível.
 
-  ### 1 => Tipos de Dados
+  # Tipos de Dados
 
 - Em Python, os tipos de dados mais comuns incluem:
 
@@ -1528,3 +1539,57 @@ print(salario_bonus(1000))  # Saída: 6000
 
 
 ### 30 => Programaçao Orientada a Objetos (POO)
+
+- A Programação Orientada a Objetos (POO) é um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades. Em Python, a POO é amplamente utilizada e oferece uma maneira eficiente de organizar e estruturar o código.
+
+- Programação Orientada a Objetos (POO) em Python e uma forma de trazer o mundo real para o código, onde tudo é representado por objetos que possuem atributos (características) e métodos (ações).
+
+
+- `Classes e Objetos`
+
+- Em Python, uma classe é uma estrutura que define um tipo de objeto. Ela encapsula dados (atributos) e comportamentos (métodos) que operam sobre esses dados. Um objeto é uma instância de uma classe.
+
+```python
+class Carro:
+    def __init__(self, modelo, ano):
+        self.modelo = modelo
+        self.ano = ano
+
+    def exibir_info(self):
+        print(f"Modelo: {self.modelo}, Ano: {self.ano}")
+
+# Criando um objeto da classe Carro
+meu_carro = Carro("Fusca", 1970)
+meu_carro.exibir_info()  # Saída: Modelo: Fusca, Ano: 1970
+```
+
+- Em python a palavra reservada `self` e usada para referenciar o objeto atual da classe, permitindo acessar seus atributos e métodos, é uma boa pratica usar o self para referenciar o objeto.
+
+- `Metodos` são funcoes que pertencem a uma classe e podem ser chamados em um objeto dessa classe. Eles podem acessar e modificar os atributos do objeto.
+```python
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def apresentar(self):
+        print(f"Nome: {self.nome}, Idade: {self.idade}")
+
+# Criando um objeto da classe Pessoa
+pessoa1 = Pessoa("Alice", 30)
+pessoa1.apresentar()  # Saída: Nome: Alice, Idade: 30
+```
+
+- `Metodos dunder` (double underscore) são métodos especiais em Python que começam e terminam com dois sublinhados. Eles são usados para definir comportamentos específicos de uma classe, como inicialização, representação em string, comparação, entre outros.
+  
+  - `__init__`: Método construtor que é chamado quando um objeto é criado. Ele inicializa os atributos do objeto.
+  - Exemplo:
+    ```python
+    class Pessoa:
+        def __init__(self, nome, idade):
+            self.nome = nome
+            self.idade = idade
+    pessoa1 = Pessoa("Alice", 30)
+    print(pessoa1.nome)  # Saída: Alice
+    print(pessoa1.idade)  # Saída: 30
+    ```
