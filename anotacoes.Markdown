@@ -2,11 +2,11 @@
 
 ## Tópicos abordados
 
-### [1. Tipos de dados](#-tipos-de-dados)
+### [1. Tipos de dados](#1-tipos-de-dados)
 
 - `Números (int, float), texto(str), Booleano(bool) tipos basicos para armazenar informações`
 
-### [2. Modo interativo](#-modo-interativo)
+### [2. Modo interativo](#2-modo-interativo)
 
 - `Usar o interpretador do Python diretamente no terminal para executar comandos linha por linha e testar códigos rapidamente.`
 
@@ -149,7 +149,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   - **Django**: um framework web robusto para desenvolvimento de aplicações web.
   - **Flask**: um microframework web leve e flexível.
 
-  # Tipos de Dados
+  # 1. Tipos de Dados
 
 - Em Python, os tipos de dados mais comuns incluem:
 

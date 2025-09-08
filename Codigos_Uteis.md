@@ -34,3 +34,5 @@ print(b1) # Saída: Bicicleta: cor => Vermelha, modelo => Caloi, ano => 2020
 - `f'{chave} => {valor}'`: Formata cada par chave-valor do dicionário.
 
 - `', '.join(...)`: Junta todos os pares chave-valor em uma única string, separados por vírgulas.
+
+
