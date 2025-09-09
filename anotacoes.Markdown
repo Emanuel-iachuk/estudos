@@ -196,7 +196,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   ```
 - A função `help()` é uma especie de documentação interativa que permite explorar as funcionalidades do Python diretamente no terminal.
 
-### 3 => Variáveis e Constantes
+# 3. Variáveis e Constantes
 
 - *Variáveis* devem ser usadas quando um valor pode ou será alterado durante a execução do programa.
 
@@ -225,7 +225,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   ```
 - Python não possui uma sintaxe específica para declarar *constantes*, mas é uma convenção seguir o uso de letras maiúsculas para indicar que um valor não deve ser alterado.
 
-### 4 => Conversão de Tipos
+# 4. Conversão de Tipos
 
 - Em Python, é comum precisar converter um valor de um tipo para outro. Isso pode ser feito usando funções de conversão integradas, como:
   - `int()`: converte um valor para um inteiro.
