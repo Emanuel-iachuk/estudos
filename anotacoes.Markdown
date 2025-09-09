@@ -10,28 +10,28 @@
 
 - `Usar o interpretador do Python diretamente no terminal para executar comandos linha por linha e testar códigos rapidamente.`
 
-## [3.Variáveis e Constantes](#3-variaveis-e-constantes)
+## [3.Variáveis e Constantes](#3-variáveis-e-constantes)
 
 - `Nomes usados para armazenar dados na memória. Constantes são variáveis cujo valor não deve ser alterado.`
 
-## [4.Conversão de tipos](#4-conversao-de-tipos)
+## [4.Conversão de tipos](#4-conversão-de-tipos)
 
 - `Processo de converter um tipo de dado em outro, como transformar um texto em número (int(), float()) ou vice-versa (str()).`
 
-## [5.Funções de entrada e saída](#5-funcoes-de-entrada-e-saida)
+## [5.Funções de entrada e saída](#5-funções-de-entrada-e-saída)
 
 - `Funções como input() e print() são usadas para entrada e saída de dados.`
 
-## [6.Operadores aritméticos/atribuição](#6-operadores-aritmeticosatribuição)
+## [6.Operadores aritméticos/atribuição](#6-operadores-aritméticosatribuição)
 
 - `Aritméticos: Realizam operações matemáticas (+, -, *, /, **).
 Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=).`
 
-## [7.Operadores de comparação](#7-operadores-de-comparacao)
+## [7.Operadores de comparação](#7-operadores-de-comparação)
 
 - `Compararam valores e retornam True ou False (==, !=, <, >, <=, >=).`
 
-## [8.Operadores lógicos](#8-operadores-logicos)
+## [8.Operadores lógicos](#8-operadores-lógicos)
 
 - `Combinam expressões lógicas para retornar True ou False (and, or, not).`
 
@@ -39,11 +39,11 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Verificam se duas variáveis apontam para o mesmo objeto na memória (is, is not).`
 
-## [10.Operadores de associação](#10-operadores-de-associacao)
+## [10.Operadores de associação](#10-operadores-de-associação)
 
 - `Verificam se um elemento está presente em uma sequência (in, not in).`
 
-## [11.Identação e blocos](#11-identacao-e-blocos)
+## [11.Identação e blocos](#11-identação-e-blocos)
 
 - `O uso de espaços em branco (geralmente 4) no início das linhas para definir blocos de código e a estrutura lógica do programa.`
 
@@ -55,11 +55,11 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Usar um if dentro de outro para testar múltiplas condições.`
 
-## [14.If ternário](#14-if-ternario)
+## [14.If ternário](#14-if-ternário)
 
 - `Uma forma curta de escrever um if/else em uma única linha.`
 
-## [15.Estruturas de repetição](#15-estruturas-de-repeticao)
+## [15.Estruturas de repetição](#15-estruturas-de-repetição)
 
 - `Executam um bloco de código várias vezes (for e while).`
 
@@ -67,11 +67,11 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `As strings em Python podem ser manipuladas de várias maneiras, incluindo fatiamento, junção e formatação.`
 
-## [17.Junções e centralização](#17-juncoes-e-centralizacao)
+## [17.Junções e centralização](#17-junções-e-centralização)
 
 - `Métodos como .join() para unir strings e .center() para centralizar texto.`
 
-## [18.Interpolação de variáveis](#18-interpolacao-de-variaveis)
+## [18.Interpolação de variáveis](#18-interpolação-de-variáveis)
 
 - `A interpolação de variáveis permite inserir valores de variáveis dentro de strings de forma dinâmica.`
 
@@ -83,11 +83,11 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Extrai partes de uma string usando índices [inicio:fim:passo].`
 
-## [21.String de múltiplas linhas](#21-string-de-multiplas-linhas)
+## [21.String de múltiplas linhas](#21-string-de-múltiplas-linhas)
 
 - `Cria textos que ocupam várias linhas no código, usando aspas triplas.`
 
-## [22.Listas: Criação e Acesso aos Dados](#22-listas-criacao-e-acesso-aos-dados)
+## [22.Listas: Criação e Acesso aos Dados](#22-listas-criação-e-acesso-aos-dados)
 
 - `Coleções ordenadas e mutáveis de itens, acessadas por índices.`
 
@@ -101,7 +101,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Listas dentro de listas, permitindo a criação de estruturas de dados mais complexas.`
 
-## [25.Métodos da classe list](#25-metodos-da-classe-list)
+## [25.Métodos da classe list](#25-métodos-da-classe-list)
 
 - `Métodos como .append(), .remove() e .sort() são usados para manipular listas.`
 
@@ -113,15 +113,15 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Coleções não ordenadas de itens únicos, sem duplicatas.`
 
-## [28.Dicionários](#28-dicionarios)
+## [28.Dicionários](#28-dicionários)
 
 - `Coleções de pares chave-valor, permitindo o acesso rápido a dados.`
 
-## [29.Funções em Python](#29-funcoes-em-python)
+## [29.Funções em Python](#29-funções-em-python)
 
 - `Blocos de código reutilizáveis que realizam uma tarefa específica e podem receber entradas (argumentos) e retornar saídas (valores).`
 
-## [30.Programação Orientada a Objetos (POO)](#30-programacao-orientada-a-objetos-poo)
+## [30.Programação Orientada a Objetos (POO)](#30-programação-orientada-a-objetos-poo)
 
 - `Um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades, facilitando a organização e reutilização do código.`
 
@@ -238,7 +238,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   texto = str(numero)  # Converte o número para uma string
   ```
 
-### 5 => Funções de Entrada e Saída
+# 5. Funções de Entrada e Saída
 
 - Em Python, é comum precisar ler e escrever dados de entrada e saída. Isso pode ser feito usando funções integradas, como:
 
@@ -307,7 +307,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
     ```
     Isso escreverá "Olá, mundo!" no arquivo `saida.txt` em vez de exibi-lo no terminal.
 
-### 6 => Operadores Aritméticos/Atribuição
+# 6. Operadores Aritméticos/Atribuição
 
 - Em Python, os *operadores aritméticos* são usados para realizar operações matemáticas básicas.
 
@@ -353,7 +353,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   a **= b # retorna 100000
   ```
 
-### 7 => Operadores de Comparação
+# 7. Operadores de Comparação
 
 - Em Python, os *operadores de comparação* são usados para comparar valores e retornar um valor booleano (`True` ou `False`). Os principais *operadores de comparação* incluem:
 
@@ -375,7 +375,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   h = a >= b #returna True porque 10 é maior ou igual a 5
   ```
 
-### 8 => Operadores Lógicos
+# 8. Operadores Lógicos
 
 - Em Python, os *operadores lógicos* são usados para combinar expressões booleanas e retornar um valor booleano (`True` ou `False`). Os principais *operadores lógicos* incluem:
 
@@ -392,7 +392,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   e = not (a > b) #returna False porque a > b é True
   ```
 
-### 9 => Operadores de Identidade
+# 9. Operadores de Identidade
 - Em Python, os *operadores de identidade* são usados para verificar se dois objetos são ocupam a mesma posição na memória. Os principais *operadores de identidade* incluem:
 
   - `is`: retorna `True` se os objetos forem idênticos (ocuparem a mesma posição na memória)
@@ -413,7 +413,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   h = a is not b #returna False porque b é uma referência ao mesmo objeto que a
   ```
 
-### 10 => Operadores de associação
+# 10. Operadores de associação
 - Em Python, os *operadores de associação* são usados para verificar se um valor está presente em uma sequência, como listas, tuplas ou strings. Os principais *operadores de associação* incluem:
 
   - `in`: retorna `True` se o valor estiver presente na sequência
@@ -428,7 +428,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   e = c not in a #returna True porque 4 não está presente na lista a
   ```
 
-### 11 => Identação e blocos
+# 11. Identação e blocos
 
 - Em Python, a *indentação* é usada para definir blocos de código. Isso significa que o nível de *indentação* determina quais linhas pertencem a um determinado bloco, como loops, condicionais e funções.
 
@@ -443,7 +443,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   print("Isso está fora do bloco if")
   ```
 
-### 12 => Estruturas Condicionais
+# 12. Estruturas Condicionais
 - Em Python, as *estruturas condicionais* são usadas para executar diferentes blocos de código com base em condições. As principais *estruturas condicionais* incluem:
 
   - `if`: executa um bloco de código se a condição for verdadeira
@@ -463,7 +463,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - As *estruturas condicionais* também podem ser aninhadas, ou seja, você pode ter uma *estrutura condicional* dentro de outra. Isso permite criar lógica mais complexa e tomar decisões com base em múltiplas condições.
 
-### 13 => if aninhado:
+# 13. if aninhado:
 
 - Em Python, você pode aninhar *estruturas condicionais* para criar lógica mais complexa. Isso significa que você pode ter uma *estrutura condicional* dentro de outra.
 
@@ -485,7 +485,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - A segunda *estrutura condicional* verifica se a idade é menor que 18, imprimindo uma mensagem correspondente.
 
-### 14 => if ternario:
+# 14. if ternário:
 
 - Em Python, você pode usar uma expressão condicional (também conhecida como *if ternário*) para atribuir um valor a uma variável com base em uma condição. A sintaxe é a seguinte:
 
@@ -505,7 +505,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   ```
   - Caso a condição `idade >= 18` seja verdadeira, a variável `status` receberá o valor `"Maior de idade"`. Caso contrário, receberá o valor `"Menor de idade"`.
 
-### 15 => Estruturas de repetição
+# 15. Estruturas de repetição
 
 - Em Python, as *estruturas de repetição* são usadas para executar um bloco de código várias vezes com base em uma condição ou em uma sequência de elementos. As principais *estruturas de repetição* incluem:
 
@@ -532,7 +532,7 @@ Exemplos de uso das *estruturas de repetição*:
 - As *estruturas de repetição* podem ser usadas para criar lógica mais complexa e tornar o código mais eficiente e eficaz.
 
 
-### 16 => Manipulando strings com Python
+# 16. Manipulando strings com Python
 - Em Python, as strings são sequências de caracteres e podem ser manipuladas de várias maneiras. Algumas das operações mais comuns incluem:
 
   - *Maiúsculas*: converter uma string para letras maiúsculas usando o método `.upper()`.
@@ -581,7 +581,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(nome_sem_espacos)  # Saída: "   joão"
   ```
 
-### 17 => Junções e centralização
+# 17. Junções e centralização
 
 - Podemos usar o metodo `center()` para centralizar uma string em um determinado tamanho.
   exemplo:
@@ -609,7 +609,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros_unidos)  # Saída: "1-2-3"
   ```
 
-### 18 => Interpolação de variáveis
+# 18. Interpolação de variáveis
 
 - Em Python, podemos usar o operador de interpolação de variáveis para incluir o valor de uma variável dentro de uma string usando o formato de string f.
   exemplo:
@@ -621,7 +621,7 @@ Exemplos de uso das *estruturas de repetição*:
   ```
 - A interpolação de variáveis permite que você crie strings dinâmicas, onde o valor das variáveis é inserido diretamente na string, tornando o código mais legível e fácil de entender.
 
-### 19 => Formatar strings com f-strings
+# 19. Formatar strings com f-strings
 
 - Utilizamos o *:.2f* para formatar números de ponto flutuante com duas casas decimais.
   exemplo:
@@ -640,7 +640,7 @@ Exemplos de uso das *estruturas de repetição*:
   ```
 - As *f-strings* são uma maneira eficiente e legível de formatar strings em Python, permitindo a inclusão de expressões diretamente dentro das chaves `{}`.
 
-### 20 => Fatiamento de strings
+# 20. Fatiamento de strings
 - Em Python, podemos usar o fatiamento de strings para extrair partes específicas de uma string. O fatiamento é feito usando a notação `string[inicio:fim:passo]`, onde:
 
   - `inicio`: índice inicial (inclusivo)
@@ -658,7 +658,7 @@ Exemplos de uso das *estruturas de repetição*:
 
 - O fatiamento de strings é uma ferramenta poderosa que permite acessar e manipular partes específicas de uma string de forma eficiente.
 
-### 21 => String de múltiplas linhas
+# 21. String de múltiplas linhas
 
 - Em Python, podemos criar strings de múltiplas linhas usando aspas triplas (`"""` ou `'''`). Isso permite que você escreva uma string que abrange várias linhas sem precisar usar caracteres de escape para novas linhas.
 
@@ -673,7 +673,7 @@ Exemplos de uso das *estruturas de repetição*:
 
 - As strings de múltiplas linhas são úteis para armazenar textos longos, como descrições, mensagens ou até mesmo blocos de código, sem a necessidade de concatenar várias strings.
 
-### 22 => Listas: Criação e Acesso aos Dados
+# 22. Listas: Criação e Acesso aos Dados
 
 - Em Python, as listas são coleções ordenadas de elementos que podem conter diferentes tipos de dados. Elas são criadas usando colchetes `[]` e os elementos são separados por vírgulas.
   exemplo:  
@@ -700,7 +700,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros[2])  # Saída: 3
   print(numeros[4])  # Saída: 5
   ```
-- Para acessar um elemento de uma lista o indice sempre começa em 0, ou seja, o primeiro elemento tem o índice 0, o segundo elemento tem o índice 1, e assim por diante. 
+- Para acessar um elemento de uma lista o índice sempre começa em 0, ou seja, o primeiro elemento tem o índice 0, o segundo elemento tem o índice 1, e assim por diante.
 
 - Você também pode acessar elementos negativos, que contam a partir do final da lista. Por exemplo, `numeros[-1]` acessa o último elemento da lista.
 - Exemplo de acesso a elementos negativos:
@@ -710,7 +710,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros[-3])  # Saída: 3
   ```
 
-### 23 => Listas: Fatiamento
+# 23. Listas: Fatiamento
 
 - As listas também suportam fatiamento, permitindo que você acesse uma sublista de elementos. Por exemplo, `numeros[1:4]` retorna os elementos do índice 1 ao 3 (exclusivo).
 - Exemplo de fatiamento de listas:
@@ -722,7 +722,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros[::2])  # Saída: [1, 3, 5] (passo de 2)
   ```
 
- ### 24 => Listas Aninhadas
+# 24. Listas Aninhadas
 
 - Em Python, você pode criar listas aninhadas, que são listas dentro de outras listas. Isso permite organizar dados de forma hierárquica ou multidimensional também chamada de matrizes.
 
@@ -744,7 +744,7 @@ Exemplos de uso das *estruturas de repetição*:
       print(elemento)#  a saída seria 1, 2, 3, 4, 5, 6, 7, 8, 9
   ```
 
-### 25 => Metodos da classe list
+# 25. Métodos da classe list
 
 - `append()`: Adiciona um elemento ao final da lista.
 exemplo:
@@ -854,7 +854,7 @@ exemplo:
 
 - No `sorted()` tam existe o `Key()` e `reverse()` e eles fazem a mesma coisa que no `sort()`.
 
-### 26 => Tuplas
+# 26. Tuplas
 
 - As `tuplas` em Python são listas imutáveis, ou seja, eles podem ser usadas para armazenar valores, mas não podem ser alterados são muito semelhantes as listas
 e podem ser usada a palavra reservada `tuple` para cria uma tupla ou pode tam bem usar valores separados por `virgula` detro de parenteses.
@@ -929,7 +929,7 @@ exemplo:
   print(len(numeros))  # Saída: 5
   ```
 
-### 27 => Conjuntos
+# 27. Conjuntos
 
 - Os `Conjuntos` em Python são listas sem ordem, ou seja, eles podem ser usados para armazenar valores, mas nao podem ser alterados mais eles não podem ter elementos duplicados se em sua lista existem elementos duplicados os conjuntos irao remover os elementos duplicados para dizer que é uma conjunto usamos a palavra reservada `set`.
 
@@ -1095,7 +1095,7 @@ exemplo:
     print(4 in conjunto)  # Saída: False
     ```
 
-### 28 => Dicionários
+# 28. Dicionários
 
 - Os `Dicionários` em Python são coleções de pares chave-valor, onde cada chave é única e mapeada para um valor. Eles são criados usando chaves `{}` e os pares chave-valor são separados por vírgulas.
 
@@ -1361,7 +1361,7 @@ exemplo:
       print(pessoa)  # Saída: {'nome': 'João', 'cidade': 'São Paulo'}
       ```
 
-### 29 => Funções em Python
+# 29. Funções em Python
 
 - ``O que são Funções``
 
@@ -1538,7 +1538,7 @@ print(salario_bonus(1000))  # Saída: 6000
 - Nos usamos a palavra reservada `global` para indicar que a variável `y` é global e pode ser acessada fora da função. Sem o `global`, `y` seria uma variável local e não poderia ser acessada fora da função, caso isso acontesse isso geraria um erro.
 
 
-### 30 => Programaçao Orientada a Objetos (POO)
+# 30. Programação Orientada a Objetos (POO)
 
 - A Programação Orientada a Objetos (POO) é um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades. Em Python, a POO é amplamente utilizada e oferece uma maneira eficiente de organizar e estruturar o código.
 
