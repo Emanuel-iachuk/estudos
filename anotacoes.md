@@ -149,7 +149,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   - **Django**: um framework web robusto para desenvolvimento de aplicações web.
   - **Flask**: um microframework web leve e flexível.
 
-  # 1. Tipos de Dados
+# <span style="color: #00ff00;">1. Tipos de Dados</span>
 
 - Em Python, os tipos de dados mais comuns incluem:
 
@@ -169,7 +169,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
   - *Conjuntos*: `set` => coleções não ordenadas de itens únicos, como {1, 2, 3}.
 
-# 2. Modo interativo
+# <span style="color: #00ff00;">2. Modo interativo</span>
 
 - O modo interativo do Python permite que você execute comandos e veja os resultados imediatamente. É uma ótima maneira de testar pequenos trechos de código e aprender a linguagem.
 
@@ -196,7 +196,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   ```
 - A função `help()` é uma especie de documentação interativa que permite explorar as funcionalidades do Python diretamente no terminal.
 
-# 3. Variáveis e Constantes
+# <span style="color: #00ff00;">3. Variáveis e Constantes</span>
 
 - *Variáveis* devem ser usadas quando um valor pode ou será alterado durante a execução do programa.
 
@@ -225,7 +225,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   ```
 - Python não possui uma sintaxe específica para declarar *constantes*, mas é uma convenção seguir o uso de letras maiúsculas para indicar que um valor não deve ser alterado.
 
-# 4. Conversão de Tipos
+# <span style="color: #00ff00;">4. Conversão de Tipos</span>
 
 - Em Python, é comum precisar converter um valor de um tipo para outro. Isso pode ser feito usando funções de conversão integradas, como:
   - `int()`: converte um valor para um inteiro.
@@ -238,7 +238,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   texto = str(numero)  # Converte o número para uma string
   ```
 
-# 5. Funções de Entrada e Saída
+# <span style="color: #00ff00;">5. Funções de Entrada e Saída</span>
 
 - Em Python, é comum precisar ler e escrever dados de entrada e saída. Isso pode ser feito usando funções integradas, como:
 
@@ -307,7 +307,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
     ```
     Isso escreverá "Olá, mundo!" no arquivo `saida.txt` em vez de exibi-lo no terminal.
 
-# 6. Operadores Aritméticos/Atribuição
+# <span style="color: #00ff00;">6. Operadores Aritméticos/Atribuição</span>
 
 - Em Python, os *operadores aritméticos* são usados para realizar operações matemáticas básicas.
 
@@ -353,7 +353,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   a **= b # retorna 100000
   ```
 
-# 7. Operadores de Comparação
+# <span style="color: #00ff00;">7. Operadores de Comparação</span>
 
 - Em Python, os *operadores de comparação* são usados para comparar valores e retornar um valor booleano (`True` ou `False`). Os principais *operadores de comparação* incluem:
 
@@ -375,7 +375,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   h = a >= b #returna True porque 10 é maior ou igual a 5
   ```
 
-# 8. Operadores Lógicos
+# <span style="color: #00ff00;">8. Operadores Lógicos</span>
 
 - Em Python, os *operadores lógicos* são usados para combinar expressões booleanas e retornar um valor booleano (`True` ou `False`). Os principais *operadores lógicos* incluem:
 
@@ -392,7 +392,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   e = not (a > b) #returna False porque a > b é True
   ```
 
-# 9. Operadores de Identidade
+# <span style="color: #00ff00;">9. Operadores de Identidade</span>
 - Em Python, os *operadores de identidade* são usados para verificar se dois objetos são ocupam a mesma posição na memória. Os principais *operadores de identidade* incluem:
 
   - `is`: retorna `True` se os objetos forem idênticos (ocuparem a mesma posição na memória)
@@ -413,7 +413,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   h = a is not b #returna False porque b é uma referência ao mesmo objeto que a
   ```
 
-# 10. Operadores de associação
+# <span style="color: #00ff00;">10. Operadores de associação</span>
 - Em Python, os *operadores de associação* são usados para verificar se um valor está presente em uma sequência, como listas, tuplas ou strings. Os principais *operadores de associação* incluem:
 
   - `in`: retorna `True` se o valor estiver presente na sequência
@@ -428,7 +428,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   e = c not in a #returna True porque 4 não está presente na lista a
   ```
 
-# 11. Identação e blocos
+# <span style="color: #00ff00;">11. Identação e blocos</span>
 
 - Em Python, a *indentação* é usada para definir blocos de código. Isso significa que o nível de *indentação* determina quais linhas pertencem a um determinado bloco, como loops, condicionais e funções.
 
@@ -443,7 +443,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   print("Isso está fora do bloco if")
   ```
 
-# 12. Estruturas Condicionais
+# <span style="color: #00ff00;">12. Estruturas Condicionais</span>
 - Em Python, as *estruturas condicionais* são usadas para executar diferentes blocos de código com base em condições. As principais *estruturas condicionais* incluem:
 
   - `if`: executa um bloco de código se a condição for verdadeira
@@ -463,7 +463,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - As *estruturas condicionais* também podem ser aninhadas, ou seja, você pode ter uma *estrutura condicional* dentro de outra. Isso permite criar lógica mais complexa e tomar decisões com base em múltiplas condições.
 
-# 13. if aninhado:
+# <span style="color: #00ff00;">13. if aninhado:</span>
 
 - Em Python, você pode aninhar *estruturas condicionais* para criar lógica mais complexa. Isso significa que você pode ter uma *estrutura condicional* dentro de outra.
 
@@ -485,7 +485,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - A segunda *estrutura condicional* verifica se a idade é menor que 18, imprimindo uma mensagem correspondente.
 
-# 14. if ternário:
+# <span style="color: #00ff00;">14. if ternário:</span>
 
 - Em Python, você pode usar uma expressão condicional (também conhecida como *if ternário*) para atribuir um valor a uma variável com base em uma condição. A sintaxe é a seguinte:
 
@@ -505,7 +505,7 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   ```
   - Caso a condição `idade >= 18` seja verdadeira, a variável `status` receberá o valor `"Maior de idade"`. Caso contrário, receberá o valor `"Menor de idade"`.
 
-# 15. Estruturas de repetição
+# <span style="color: #00ff00;">15. Estruturas de repetição</span>
 
 - Em Python, as *estruturas de repetição* são usadas para executar um bloco de código várias vezes com base em uma condição ou em uma sequência de elementos. As principais *estruturas de repetição* incluem:
 
@@ -532,7 +532,7 @@ Exemplos de uso das *estruturas de repetição*:
 - As *estruturas de repetição* podem ser usadas para criar lógica mais complexa e tornar o código mais eficiente e eficaz.
 
 
-# 16. Manipulando strings com Python
+# <span style="color: #00ff00;">16. Manipulando strings com Python</span>
 - Em Python, as strings são sequências de caracteres e podem ser manipuladas de várias maneiras. Algumas das operações mais comuns incluem:
 
   - *Maiúsculas*: converter uma string para letras maiúsculas usando o método `.upper()`.
@@ -581,7 +581,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(nome_sem_espacos)  # Saída: "   joão"
   ```
 
-# 17. Junções e centralização
+# <span style="color: #00ff00;">17. Junções e centralização</span>
 
 - Podemos usar o metodo `center()` para centralizar uma string em um determinado tamanho.
   exemplo:
@@ -609,7 +609,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros_unidos)  # Saída: "1-2-3"
   ```
 
-# 18. Interpolação de variáveis
+# <span style="color: #00ff00;">18. Interpolação de variáveis</span>
 
 - Em Python, podemos usar o operador de interpolação de variáveis para incluir o valor de uma variável dentro de uma string usando o formato de string f.
   exemplo:
@@ -621,7 +621,7 @@ Exemplos de uso das *estruturas de repetição*:
   ```
 - A interpolação de variáveis permite que você crie strings dinâmicas, onde o valor das variáveis é inserido diretamente na string, tornando o código mais legível e fácil de entender.
 
-# 19. Formatar strings com f-strings
+# <span style="color: #00ff00;">19. Formatar strings com f-strings</span>
 
 - Utilizamos o *:.2f* para formatar números de ponto flutuante com duas casas decimais.
   exemplo:
@@ -640,7 +640,7 @@ Exemplos de uso das *estruturas de repetição*:
   ```
 - As *f-strings* são uma maneira eficiente e legível de formatar strings em Python, permitindo a inclusão de expressões diretamente dentro das chaves `{}`.
 
-# 20. Fatiamento de strings
+# <span style="color: #00ff00;">20. Fatiamento de strings</span>
 - Em Python, podemos usar o fatiamento de strings para extrair partes específicas de uma string. O fatiamento é feito usando a notação `string[inicio:fim:passo]`, onde:
 
   - `inicio`: índice inicial (inclusivo)
@@ -658,7 +658,7 @@ Exemplos de uso das *estruturas de repetição*:
 
 - O fatiamento de strings é uma ferramenta poderosa que permite acessar e manipular partes específicas de uma string de forma eficiente.
 
-# 21. String de múltiplas linhas
+# <span style="color: #00ff00;">21. String de múltiplas linhas</span>
 
 - Em Python, podemos criar strings de múltiplas linhas usando aspas triplas (`"""` ou `'''`). Isso permite que você escreva uma string que abrange várias linhas sem precisar usar caracteres de escape para novas linhas.
 
@@ -673,7 +673,7 @@ Exemplos de uso das *estruturas de repetição*:
 
 - As strings de múltiplas linhas são úteis para armazenar textos longos, como descrições, mensagens ou até mesmo blocos de código, sem a necessidade de concatenar várias strings.
 
-# 22. Listas: Criação e Acesso aos Dados
+# <span style="color: #00ff00;">22. Listas: Criação e Acesso aos Dados</span>
 
 - Em Python, as listas são coleções ordenadas de elementos que podem conter diferentes tipos de dados. Elas são criadas usando colchetes `[]` e os elementos são separados por vírgulas.
   exemplo:  
@@ -710,7 +710,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros[-3])  # Saída: 3
   ```
 
-# 23. Listas: Fatiamento
+# <span style="color: #00ff00;">23. Listas: Fatiamento</span>
 
 - As listas também suportam fatiamento, permitindo que você acesse uma sublista de elementos. Por exemplo, `numeros[1:4]` retorna os elementos do índice 1 ao 3 (exclusivo).
 - Exemplo de fatiamento de listas:
@@ -722,7 +722,7 @@ Exemplos de uso das *estruturas de repetição*:
   print(numeros[::2])  # Saída: [1, 3, 5] (passo de 2)
   ```
 
-# 24. Listas Aninhadas
+# <span style="color: #00ff00;">24. Listas Aninhadas</span>
 
 - Em Python, você pode criar listas aninhadas, que são listas dentro de outras listas. Isso permite organizar dados de forma hierárquica ou multidimensional também chamada de matrizes.
 
@@ -744,7 +744,7 @@ Exemplos de uso das *estruturas de repetição*:
       print(elemento)#  a saída seria 1, 2, 3, 4, 5, 6, 7, 8, 9
   ```
 
-# 25. Métodos da classe list
+# <span style="color: #00ff00;">25. Métodos da classe list</span>
 
 - `append()`: Adiciona um elemento ao final da lista.
 exemplo:
@@ -854,7 +854,7 @@ exemplo:
 
 - No `sorted()` tam existe o `Key()` e `reverse()` e eles fazem a mesma coisa que no `sort()`.
 
-# 26. Tuplas
+# <span style="color: #00ff00;">26. Tuplas</span>
 
 - As `tuplas` em Python são listas imutáveis, ou seja, eles podem ser usadas para armazenar valores, mas não podem ser alterados são muito semelhantes as listas
 e podem ser usada a palavra reservada `tuple` para cria uma tupla ou pode tam bem usar valores separados por `virgula` detro de parenteses.
@@ -929,7 +929,7 @@ exemplo:
   print(len(numeros))  # Saída: 5
   ```
 
-# 27. Conjuntos
+# <span style="color: #00ff00;">27. Conjuntos</span>
 
 - Os `Conjuntos` em Python são listas sem ordem, ou seja, eles podem ser usados para armazenar valores, mas nao podem ser alterados mais eles não podem ter elementos duplicados se em sua lista existem elementos duplicados os conjuntos irao remover os elementos duplicados para dizer que é uma conjunto usamos a palavra reservada `set`.
 
@@ -1095,7 +1095,7 @@ exemplo:
     print(4 in conjunto)  # Saída: False
     ```
 
-# 28. Dicionários
+# <span style="color: #00ff00;">28. Dicionários</span>
 
 - Os `Dicionários` em Python são coleções de pares chave-valor, onde cada chave é única e mapeada para um valor. Eles são criados usando chaves `{}` e os pares chave-valor são separados por vírgulas.
 
@@ -1361,7 +1361,7 @@ exemplo:
       print(pessoa)  # Saída: {'nome': 'João', 'cidade': 'São Paulo'}
       ```
 
-# 29. Funções em Python
+# <span style="color: #00ff00;">29. Funções em Python</span>
 
 - ``O que são Funções``
 
@@ -1538,7 +1538,7 @@ print(salario_bonus(1000))  # Saída: 6000
 - Nos usamos a palavra reservada `global` para indicar que a variável `y` é global e pode ser acessada fora da função. Sem o `global`, `y` seria uma variável local e não poderia ser acessada fora da função, caso isso acontesse isso geraria um erro.
 
 
-# 30. Programação Orientada a Objetos (POO)
+# <span style="color: #00ff00;">30. Programação Orientada a Objetos (POO)</span>
 
 - A Programação Orientada a Objetos (POO) é um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades. Em Python, a POO é amplamente utilizada e oferece uma maneira eficiente de organizar e estruturar o código.
 
@@ -1582,7 +1582,7 @@ pessoa1.apresentar()  # Saída: Nome: Alice, Idade: 30
 
 - `Metodos dunder` (double underscore) são métodos especiais em Python que começam e terminam com dois sublinhados. Eles são usados para definir comportamentos específicos de uma classe, como inicialização, representação em string, comparação, entre outros.
   
-  - `__init__`: Método construtor que é chamado quando um objeto é criado. Ele inicializa os atributos do objeto.
+  - `__init__`: Método construtor que é chamado quando um objeto é criado. Ele inicializa os atributos do objeto .
   - Exemplo:
     ```python
     class Pessoa:
@@ -1593,3 +1593,49 @@ pessoa1.apresentar()  # Saída: Nome: Alice, Idade: 30
     print(pessoa1.nome)  # Saída: Alice
     print(pessoa1.idade)  # Saída: 30
     ```
+
+  - `__str__`: Método especial que retorna uma representação em string do objeto. Ele é usado quando o objeto é impresso ou convertido para uma string.
+  - Exemplo:
+    ```python
+    class Pessoa:
+        def __init__(self, nome, idade):
+            self.nome = nome
+            self.idade = idade
+
+        def __str__(self): # Este metodo retorna uma representacao em string
+            return f"Nome: {self.nome}, Idade: {self.idade}"
+    pessoa1 = Pessoa("Alice", 30)
+    print(pessoa1)  # Saída: Nome: Alice, Idade: 30
+    ```
+
+- `Construtores e Destrutores`
+
+- `Construtores`: Assim como visto a cima, para declarar um construtor usamos o `__init__` tam bem o nomeamos de inicializador.
+
+  - Exemplo:
+    ```python
+    class Pessoa:
+        def __init__(self, nome, idade):
+            self.nome = nome  # Atributo
+            self.idade = idade  # Atributo
+    pessoa1 = Pessoa("Alice", 30)
+    print(pessoa1.nome)  # Saída: Alice
+    print(pessoa1.idade)  # Saída: 30
+    ```
+
+- `Destrutores`: O destrutor e um metodo especial que eh chamado quando um objeto eh destruido ou removido do escopo. `Destrutores` em Python não são tão necessários quanto em `C++` porque o python tem um coletor de lixo que lida com o gerenciamento de memória automaticamente.
+
+  - Exemplo:
+    ```Python
+    class Pessoa:
+        def __init__(self, nome, idade):
+            self.nome = nome  # Atributo
+            self.idade = idade  # Atributo
+        def __del__(self): # Metodo destrutor
+            print(f"Objeto de nome {self.nome} foi destruido.")
+
+    pessoa1 = Pessoa("Alice", 30)
+    del pessoa1 # Destroi o objeto
+    ```
+
+- A palavra reservada `del` é usada para destruir um objeto, removendo-o do escopo e liberando a memória ocupada pelo objeto, muitas vezes usado para forcar a destruição do objeto.
