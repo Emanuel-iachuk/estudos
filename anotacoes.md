@@ -123,6 +123,8 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 ## [30.Programação Orientada a Objetos (POO)](#30-programação-orientada-a-objetos-poo)
 
+
+
 - `Um paradigma de programação que utiliza "objetos" para representar dados e funcionalidades, facilitando a organização e reutilização do código.`
 
 - `Fundamentos de POO: Classes, Objetos, Atributos, Métodos, Herança, Encapsulamento e Polimorfismo.`
@@ -131,23 +133,28 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Metodos dunder ou metodos Magicos`
 
+## [31.Herança](#31-herança)
+
+
 ##
 
 
-- Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
-- A sintaxe do Python é clara e fácil de aprender, o que a torna uma excelente escolha para iniciantes e profissionais de tecnologia.
-- Python foi criado por *Guido van Rossum* e lançado pela primeira vez em 1991. Ela foi criada com o objetivo de facilitar o desenvolvimento de programas de alto desempenho.
+### - Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
+###
+### - A sintaxe do Python é clara e fácil de aprender, o que a torna uma excelente escolha para iniciantes e profissionais de tecnologia.
+###
+### - Python foi criado por `Guido van Rossum` e eGuido van Rossum e lançado pela primeira vez em 1991. Ela foi criada com o objetivo de facilitar o desenvolvimento de programas de alto desempenho.
+###
+### - Python é uma linguagem de `tipagem dinâmica`, o que significa que você não precisa declarar o tipo de uma variável ao criá-la. Isso torna o código mais flexível e fácil de escrever.
+###
+### - Python suporta múltiplos paradigmas de programação, incluindo `programação orientada a objetos, programação funcional e programação imperativa`. Isso permite que os desenvolvedores escolham o estilo de programação que melhor se adapta às suas necessidades.
 
-- Python é uma linguagem de *tipagem dinâmica*, o que significa que você não precisa declarar o tipo de uma variável ao criá-la. Isso torna o código mais flexível e fácil de escrever.
-
-- Python suporta múltiplos paradigmas de programação, incluindo *programação orientada a objetos*, *programação funcional* e *programação imperativa*. Isso permite que os desenvolvedores escolham o estilo de programação que melhor se adapta às suas necessidades.
-
-- A comunidade Python é muito ativa e oferece uma vasta gama de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações complexas. Algumas das bibliotecas mais populares incluem:
-  - **NumPy**: para computação científica e manipulação de arrays.
-  - **Pandas**: para análise de dados e manipulação de tabelas.
-  - **Matplotlib**: para visualização de dados.
-  - **Django**: um framework web robusto para desenvolvimento de aplicações web.
-  - **Flask**: um microframework web leve e flexível.
+### - A comunidade Python é muito ativa e oferece uma vasta gama de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações complexas. Algumas das bibliotecas mais populares incluem:
+  - `NumPy`: para computação científica e manipulação de arrays.
+  - `Pandas`: para análise de dados e manipulação de tabelas.
+  - `Matplotlib`: para visualização de dados.
+  - `Django`: um framework web robusto para desenvolvimento de aplicações web.
+  - `Flask`: um microframework web leve e flexível.
 
 # <span style="color: #00ff00;">1. Tipos de Dados</span>
 
@@ -1639,3 +1646,44 @@ pessoa1.apresentar()  # Saída: Nome: Alice, Idade: 30
     ```
 
 - A palavra reservada `del` é usada para destruir um objeto, removendo-o do escopo e liberando a memória ocupada pelo objeto, muitas vezes usado para forcar a destruição do objeto.
+
+
+# <span style="color: #00ff00;">31. Herança</span>
+
+### `Benefícios da Herança`
+  - Representa bem o conceito do mundo real.
+  ###
+  - *Fornece reutilização de código, não precisamos escrever o mesmo código várias vezes. Além disso, permita adicionar mais recursos a uma classe sem modificá-la.
+  ###
+  - *É de natureza transitiva, o que significa que se a classe B herdar da classe A, todas as subclasses de B também herdarão automaticamente da classe A.
+  ###
+
+### `Sintaxe da Herança`
+
+- **Herança simples**
+```python
+class ClassePai:
+    # Atributos e métodos da classe pai
+    pass
+    # Tudo que estiver atribuido a classe pai sera herdado pela classe filha
+class ClasseFilha(ClassePai):
+    # Atributos e métodos da classe filha
+    pass
+```
+
+- **Herança múltipla**
+```python
+class ClassePai1:
+    # Atributos e métodos da classe pai 1
+    pass
+class ClassePai2:
+    # Atributos e métodos da classe pai 2
+    pass
+class ClasseFilha(ClassePai1, ClassePai2):
+    # Atributos e métodos da classe filha
+    pass
+```
+#
+### `Herança Simples`
+
+- A herança simples ocorre quando uma classe filha herda de uma única classe pai. Isso permite que a classe filha reutilize os atributos e métodos da classe pai, promovendo a reutilização de código e a organização do código.
