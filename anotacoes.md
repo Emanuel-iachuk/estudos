@@ -121,6 +121,8 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 - `Blocos de código reutilizáveis que realizam uma tarefa específica e podem receber entradas (argumentos) e retornar saídas (valores).`
 
+- `Args e Kwargs: Permitem passar um número variável de argumentos para funções.`
+
 ## [30.Programação Orientada a Objetos (POO)](#30-programação-orientada-a-objetos-poo)
 
 
@@ -157,6 +159,10 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
   - `Flask`: um microframework web leve e flexível.
 
 # <span style="color: #00ff00;">1. Tipos de Dados</span>
+
+### - O Que são tipos de dados?
+
+  - `Tipos de dados` são categorias que definem o tipo de valor que uma variável pode armazenar. Eles determinam como os dados são representados na memória do computador e quais operações podem ser realizadas sobre eles.
 
 - Em Python, os tipos de dados mais comuns incluem:
 
@@ -1370,7 +1376,7 @@ exemplo:
 
 # <span style="color: #00ff00;">29. Funções em Python</span>
 
-- ``O que são Funções``
+## - `O que são Funções`
 
 - Funções são blocos de código reutilizáveis que realizam uma tarefa específica. Elas permitem organizar o código em partes menores e mais gerenciáveis, facilitando a leitura, manutenção e reutilização.
 
@@ -1410,7 +1416,7 @@ print(saudacao())  # Saída: Olá, Visitante!
 print(saudacao("João"))  # Saída: Olá, João!
 ```
 
-- ``Retornando valores``
+## - `Retornando valores`
 
 - Em  python diferente de outras linguagem e possivel retornar mais de um valor, E toda função em python retorna um valor, se não houver um valor explicitamente retornado, a função retornará `None` por padrao.
 
@@ -1435,7 +1441,7 @@ resultado2, erro2 = dividir(10, 2)
 print(resultado2)  # Saída: 5.0
 ```
 
-- `Argumentos Nomeados`
+## - `Argumentos Nomeados`
 
 - Em python e em outras linguagens, é possível passar argumentos nomeados para funções, tornando a chamada da função mais clara e legível.
 
@@ -1452,9 +1458,13 @@ def exibir_Informcoes(**{"nome": nome, "idade": idade}):
 
 - Nesse ultimo exemplo colocamos os argumentos em um dicionário, o que permite passar um número variável de argumentos nomeados para a função sendo muito útil para funções que precisam lidar com muitos parâmetros.
 
-- `Args e Kwargs`
+## - `Args e Kwargs`
 
 - Podemos combinar parâmetros obrigatórios com `Args` e `Kwargs`. Quando esses são definidos ``(*args e **kwargs)``, O método recebe os valores como tupla e dicionário respectivamente.
+
+- `Args`: Os argumentos posicionais (positional arguments) sao os argumentos passados para uma função quando ela eh chamada, e eles sao armazenados em uma tupla.
+
+- `Kwargs`: Os argumentos nomeados (keyword arguments) sao os argumentos passados para uma função quando ela eh chamada, e eles sao armazenados em um dicionário.
 
 - Exemplo:
 ```python
@@ -1469,7 +1479,7 @@ def exibir_dados(nome, *args, **kwargs):
 exibir_dados("João", 30, "São Paulo", profissao="Engenheiro", hobby="Futebol") # Saída: Nome: João, Dados adicionais:  - 30  - São Paulo  profissao: Engenheiro  hobby: Futebol
 ```
 
-- `Parâmetros especiais`
+## - `Parâmetros especiais`
 
 - Por padrão, Argumentos podem ser pasados para uma função python tanto por posição quanto por nome. Para melhorar a legibilidade e desempenho, é recomendável usar argumentos nomeados sempre que possível.
 
@@ -1509,7 +1519,7 @@ exemplo_funcao(1, 2, 3, 4, e=5, f=6)  # Saída: 1 2 3 4 5 6
 
 - No exemplo a cima existem dois parâmetros posicional apenas `a` e `b`, dois parâmetros que podem ser passados por posição ou por nome `c` e `d`, e dois parâmetros nomeados apenas `e` e `f`.
 
-- `Objetos de primeira classe`
+## - `Objetos de primeira classe`
 
 - Em Python, funções, métodos e classes são tratados como objetos de primeira classe. Isso significa que podem ser passados como argumentos, retornados de outras funções e atribuídos a variáveis.
 
@@ -1526,7 +1536,7 @@ executar_funcao(5, 10, somar) # Saída: A soma de 5 + 10 = 15
 
 - Podemos observar que no exemplo acima a função `executar_funcao` é capaz de receber a função `somar` como argumento e executá-la, demonstrando que funções são objetos de primeira classe em Python e ao chamar a `somar` não precisamos executá-la, somente passamos a referência.
 
-- `Escopo local e global`
+## - `Escopo local e global`
 
 - Em Python, o escopo refere-se à área do código onde uma variável ou função é reconhecida e acessível. Existem dois tipos principais de escopo: local e global para utilizar objetos globais usamos a palavra reservada `global`.
 
@@ -1552,7 +1562,7 @@ print(salario_bonus(1000))  # Saída: 6000
 - Programação Orientada a Objetos (POO) em Python e uma forma de trazer o mundo real para o código, onde tudo é representado por objetos que possuem atributos (características) e métodos (ações).
 
 
-- `Classes e Objetos`
+## - `Classes e Objetos`
 
 - Em Python, uma classe é uma estrutura que define um tipo de objeto. Ela encapsula dados (atributos) e comportamentos (métodos) que operam sobre esses dados. Um objeto é uma instância de uma classe.
 
@@ -1687,3 +1697,19 @@ class ClasseFilha(ClassePai1, ClassePai2):
 ### `Herança Simples`
 
 - A herança simples ocorre quando uma classe filha herda de uma única classe pai. Isso permite que a classe filha reutilize os atributos e métodos da classe pai, promovendo a reutilização de código e a organização do código.
+
+- Exemplo:
+```python
+class Animal:
+    def fazer_som(self):
+        return "Som de animal"
+
+class Cachorro(Animal):
+    def fazer_som(self):
+        return "Latido"
+
+cachorro = Cachorro()
+print(cachorro.fazer_som())  # Saída: Latido
+```
+
+### `Herança Múltipla`
