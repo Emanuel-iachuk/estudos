@@ -1668,10 +1668,38 @@ pessoa1.apresentar()  # Saída: Nome: Alice, Idade: 30
   - *É de natureza transitiva, o que significa que se a classe B herdar da classe A, todas as subclasses de B também herdarão automaticamente da classe A.
   ###
 
+
+### `Sintaxe da Herança`
+
+- **Herança simples**
+```python
+class ClassePai:
+    # Atributos e métodos da classe pai
+    pass
+    # Tudo que estiver atribuido a classe pai sera herdado pela classe filha
+class ClasseFilha(ClassePai):
+    # Atributos e métodos da classe filha
+    pass
+```
+
+- **Herança múltipla**
+```python
+class ClassePai1:
+    # Atributos e métodos da classe pai 1
+    pass
+class ClassePai2:
+    # Atributos e métodos da classe pai 2
+    pass
+class ClasseFilha(ClassePai1, ClassePai2):
+    # Atributos e métodos da classe filha
+    pass
+```
+
 #
 ### `Herança Simples`
 
 - A herança simples ocorre quando uma classe filha herda de uma única classe pai. Isso permite que a classe filha reutilize os atributos e métodos da classe pai, promovendo a reutilização de código e a organização do código.
+
 
 - Exemplo com Sobrescrita (Overriding):
 ```python
@@ -1749,4 +1777,23 @@ print(pessoa.exibir_habilidade())
 print(Pessoa.mro()) 
 # Saída: [<class '__main__.Pessoa'>, <class '__main__.HabilitaEstudo'>, <class '__main__.HabilitaTrabalho'>, <class 'object'>]
 ```
+
+
+- Exemplo:
+```python
+class Animal:
+    def fazer_som(self):
+        return "Som de animal"
+
+class Cachorro(Animal):
+    def fazer_som(self):
+        return "Latido"
+
+cachorro = Cachorro()
+print(cachorro.fazer_som())  # Saída: Latido
+```
+
+### `Herança Múltipla`
+
+
 
