@@ -137,8 +137,15 @@ Atribuição: Atribuem o resultado de uma operação a uma variável (=, +=, -=)
 
 ## [31.Herança](#31-herança)
 
+- `Herança Simples`
+- `Herança Multipla`
+- `MRO`
 
-##
+##  [32.Encapsulamento](#32-encapsulamento)
+
+- **`Encapsulamneto`**
+- **`@property`**
+- **`@setter`**
 
 
 ### - Python é uma linguagem de programação versátil e amplamente usada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial.
@@ -1792,8 +1799,58 @@ class Cachorro(Animal):
 cachorro = Cachorro()
 print(cachorro.fazer_som())  # Saída: Latido
 ```
+#
 
-### `Herança Múltipla`
 
+# <span style="color: #00ff00;">32. Encapsulamento<span>
+
+- **O `Encapsulamento `é a prática de esconder os detalhes internos de um objeto (atributos) e expor apenas uma interface controlada (métodos).**
+
+- **Em essência, ele transforma um objeto em uma "Caixa Preta", onde o usuário só interage com os botões, não com a fiação interna.**
+
+- **🔑 Conceito Central: Integridade de Dados**
+
+- **O principal objetivo do encapsulamento no Back-end é garantir a integridade dos dados. Ele impede que atributos críticos sejam alterados diretamente por qualquer parte do código, forçando a alteração a passar por uma validação.**
+
+- **Exemplo Prático `(Back-end)`: Um Saldo de conta bancária não pode ser negativo. O Encapsulamento assegura que, antes de registrar qualquer mudança, o código de validação seja executado.**
+
+```python
+# Encapsulamento aplicado à Validação (Core do Back-end)
+class Produto:
+    def __init__(self, nome, preco):
+        self.nome = nome
+        # A atribuição já passa pelo setter, garantindo a validação inicial!
+        self.preco = preco 
+        
+    # MÉTODO PRIVADO: Usado internamente para forçar a checagem
+    def __validar_preco(self, valor):
+        if valor < 0:
+            # Em Back-end, isso seria um erro HTTP 400 Bad Request
+            raise ValueError("Erro de Segurança: O preço não pode ser negativo.") 
+        return valor
+
+    # GETTER (Método para Leitura Controlada)
+    @property 
+    def preco(self):
+        # Acesso seguro ao atributo privado
+        return self._preco # O Python usa _atributo para o atributo privado
+
+    # SETTER (Método para Escrita Controlada e Validação)
+    @preco.setter
+    def preco(self, novo_preco):
+        # Chama a lógica de validação antes de atribuir o valor interno
+        self._preco = self.__validar_preco(novo_preco)
+
+# USO
+item = Produto("Monitor", 500)
+print(f"Preço OK: {item.preco}") # Acessa via @property (Getter)
+
+try:
+    item.preco = -10 # Tenta atribuir um valor inválido. O Setter barra!
+except ValueError as e:
+    print(e)
+    
+# item.__preco = -100  <-- Em POO, nunca faça isso!
+```
 
 
