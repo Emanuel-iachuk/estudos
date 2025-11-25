@@ -1,4 +1,8 @@
 # `Meus estudos da Linguagem GO`
 
 
-### [Go - Tipos Primitivos](Anotacoes/Tipos.md)
+### [O que são tipos em Go](Anotacoes/OqueSaoTipos.md)
+
+### [Numeros em Go](Anotacoes/numeros)
+
+### [Strings em Go](Anotacoes/strings)
